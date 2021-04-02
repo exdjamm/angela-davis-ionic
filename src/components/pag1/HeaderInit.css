@@ -1,0 +1,15 @@
+#init{
+    left:3%;
+    margin-top: 10px;
+}
+#left{
+    position: absolute;
+    right: 0px;
+}
+#left_{
+    position: absolute;
+    right: 70px;
+}
+#img{
+    width: 100%;
+}
