@@ -13,16 +13,18 @@ const HeaderInit: React.FC = () =>{
 
     const [ option, setOption] = useState("Portuguese");
 
-    let giver = () =>{
+    let getLanguage = () =>{
         return option == "Portuguese"? language.portuguese : language.english;
     };
+
     const languagers : languages[] =[{name:"Portuguese",description:"Mude a língua para Pt-Br",src:language.portuguese.srcImg},{name:"English",description:"Change the language to En-USA",src:language.english.srcImg}]
+
     const options: ContainerProps[] = 
     [
         {
-            name: giver().header[1],
+            name: getLanguage().header[1],
             color:"warning",
-            func: ()=>{}
+            func: ()=>{setHeader(1)}
         },
         {
             name:"Angela Davis",
@@ -30,38 +32,43 @@ const HeaderInit: React.FC = () =>{
             func: ()=>{}
         },
         {
-            name:giver().header[2],
+            name:getLanguage().header[2],
             color:"warning",
-            func: ()=>{}
+            func: ()=>{setHeader(2)}
         },
         {
-            name:giver().header[3],
+            name:getLanguage().header[3],
             color:"warning",
-            func: ()=>{}
+            func: ()=>{setHeader(3)}
         }
     ];
 
     const [lang, setLang] = useState({showPop : false, event:undefined});
-    const [pop, setPop] = useState({showPop : false, event:undefined});
+    const [headerPosition, setHeader] = useState(0);
+    const [popLanguageSelect, setPop] = useState({showPop : false, event:undefined});
+
     const [number, setNumber] = useState(window.innerWidth);
     setInterval(()=>setNumber(window.innerWidth),500);
+
     var x = 0;
-    var retornar = (el:ContainerProps) =>{
+
+    var createButtonNav = (buttonProps:ContainerProps) =>{
         return(
             <IonCol size="2">
-                <IonButton fill="clear" expand="full" color={el.color} onClick={()=>console.log(el.name)}>{el.name}</IonButton>
+                <IonButton fill="clear" expand="full" color={buttonProps.color} onClick={buttonProps.func}>{buttonProps.name}</IonButton>
             </IonCol>
         )
     }
+
     return (
         <IonGrid>
             <IonRow>
                 <IonCol size={number > 900 ? "2":"8"} id="init">
-                    <IonTitle>{giver().header[0]}</IonTitle>
+                    <IonTitle>{getLanguage().header[headerPosition]}</IonTitle>
                     </IonCol>
-                {options.map((el)=>{
+                {options.map((buttonProps)=>{
                     if (number > 900){
-                        return retornar(el);
+                        return createButtonNav(buttonProps);
                     }
                         else if( x == 3){
                         return(
@@ -77,18 +84,18 @@ const HeaderInit: React.FC = () =>{
                     <IonIcon icon={globeOutline}></IonIcon>
                 </IonButton>
             </IonRow>
-            <IonPopover isOpen={pop.showPop} event={pop.event} onDidDismiss={()=>setPop({showPop:false,event:undefined})}>
-                {options.map((el=>{
-                    return retornar(el);
+            <IonPopover isOpen={popLanguageSelect.showPop} event={popLanguageSelect.event} onDidDismiss={()=>setPop({showPop:false,event:undefined})}>
+                {options.map((buttonProps=>{
+                    return createButtonNav(buttonProps);
                 }))}
             </IonPopover>
             <IonPopover isOpen={lang.showPop} event={lang.event} onDidDismiss={()=>setLang({showPop:false,event:undefined})}>
-                {languagers.map((el)=>{
+                {languagers.map((selectLanguageProps)=>{
                     return(
                         <IonCard button={true} onClick={()=>{
                             setLang({showPop:false,event:undefined});
-                            setOption(el.name);
-                        }} ><IonThumbnail id="img"><IonImg src={el.src}></IonImg></IonThumbnail> {el.description}</IonCard>
+                            setOption(selectLanguageProps.name);
+                        }} ><IonThumbnail id="img"><IonImg src={selectLanguageProps.src}></IonImg></IonThumbnail> {selectLanguageProps.description}</IonCard>
                     )
                 })}
                 </IonPopover>
