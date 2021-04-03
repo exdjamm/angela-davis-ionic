@@ -1,9 +1,10 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonFooter, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import './Home.css';
 
 //#region Imports components
 import HeaderInit from "../components/pag1/HeaderInit";
-
+import BodyInit from "../components/pag1/BodyInit";
+import FooterInit from "../components/pag1/FooterInit";
 //#endregion
   
 const Home: React.FC = () => {
@@ -20,7 +21,12 @@ const Home: React.FC = () => {
             <IonTitle size="large">Angela Davis - main</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <BodyInit/>
+        
       </IonContent>
+      <IonFooter>
+          <FooterInit/>
+      </IonFooter>
     </IonPage>
   );
 };

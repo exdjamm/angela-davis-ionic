@@ -1,7 +1,7 @@
-import { IonTitle, IonButton, IonRow, IonCol, IonGrid, IonPopover, IonIcon, IonCard, IonImg, IonThumbnail } from '@ionic/react';
+import { IonTitle, IonButton, IonGrid, IonPopover, IonIcon, IonCard, IonImg, IonThumbnail } from '@ionic/react';
 import { useState } from 'react';
 import "./HeaderInit.css";
-import { menuOutline, globeOutline } from 'ionicons/icons';
+import { globeOutline } from 'ionicons/icons';
 import {default as language} from "./language.json";
 
 

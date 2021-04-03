@@ -1,0 +1,32 @@
+#Thumbnail{
+    height: 100%;
+    width: 100%;
+}
+#changingMax{
+    max-width: 1100px;
+}
+#align{
+    text-align: center;
+}
+#auxiliaryBox{
+    max-width: 350px;
+}
+.auxiliaryText{
+    font-size: large;
+}
+@media screen and (max-width:350px) {
+    #align{
+        font-size: small;
+    }
+    .auxiliaryText{
+        font-size: small;
+    }
+}
+@media screen and (max-width:700px) {
+    #align{
+        font-size: medium;   
+    }
+    .auxiliaryText{
+        font-size: medium;
+    }
+}
