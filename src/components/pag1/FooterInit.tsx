@@ -1,10 +1,10 @@
 import "./FooterInit.css";
-
-const FooterInit : React.FC = () =>{
+interface footer{values:string[]}
+const FooterInit : React.FC<footer> = ({values}) =>{
     return(
-        <>in worrking...
+        <>{values[0]}
         <br/> 
-       Autores: Êxodo Jaffar & João Lucas
+       {values[1]}
         </>
     )
 }
