@@ -1,7 +1,3 @@
-#init{
-    left:3%;
-    margin-top: 10px;
-}
 #left{
     position: absolute;
     right: 0px;
@@ -12,4 +8,10 @@
 }
 #img{
     width: 100%;
+}
+#flex{
+    display: inline-flex;
+}
+#title{
+    font-size: 20px;
 }

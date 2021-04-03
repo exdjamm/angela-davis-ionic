@@ -47,43 +47,21 @@ const HeaderInit: React.FC = () =>{
     const [headerPosition, setHeader] = useState(0);
     const [popLanguageSelect, setPop] = useState({showPop : false, event:undefined});
 
-    const [number, setNumber] = useState(window.innerWidth);
-    setInterval(()=>setNumber(window.innerWidth),500);
-
-    var x = 0;
-
     var createButtonNav = (buttonProps:ContainerProps) =>{
         return(
-            <IonCol size="2">
-                <IonButton fill="clear" expand="full" color={buttonProps.color} onClick={buttonProps.func}>{buttonProps.name}</IonButton>
-            </IonCol>
+            <IonButton fill="clear" color={buttonProps.color} onClick={()=>buttonProps.func()}>{buttonProps.name}</IonButton>
         )
     }
 
     return (
         <IonGrid>
-            <IonRow>
-                <IonCol size={number > 900 ? "2":"8"} id="init">
-                    <IonTitle>{getLanguage().header[headerPosition]}</IonTitle>
-                    </IonCol>
-                {options.map((buttonProps)=>{
-                    if (number > 900){
-                        return createButtonNav(buttonProps);
-                    }
-                        else if( x == 3){
-                        return(
-                            <IonButton id="left_" onClick={(e:any)=>setPop({showPop:true, event:e})}>
-                                <IonIcon icon={menuOutline}/>
-                            </IonButton>
-                            )
-                        }
-                        x++;
-                        return(null);
-                })}
-                <IonButton id="left" onClick={(e:any)=>setLang({showPop:true, event:e})}>
-                    <IonIcon icon={globeOutline}></IonIcon>
-                </IonButton>
-            </IonRow>
+            <IonTitle id="title">{getLanguage().header[headerPosition]}</IonTitle>
+            {options.map((buttonProps)=>{                   
+                    return createButtonNav(buttonProps);
+            })}
+            <IonButton id="left" onClick={(e:any)=>setLang({showPop:true, event:e})}>
+                <IonIcon icon={globeOutline}></IonIcon>
+            </IonButton>
             <IonPopover isOpen={popLanguageSelect.showPop} event={popLanguageSelect.event} onDidDismiss={()=>setPop({showPop:false,event:undefined})}>
                 {options.map((buttonProps=>{
                     return createButtonNav(buttonProps);
