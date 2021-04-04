@@ -7,23 +7,25 @@ const BodyInit : React.FC<params> = (lang) =>{
 
     return(
         <IonContent >
+            {/*Apresentação*/}
             <IonRow className="ion-justify-content-center">
-                <IonCol id="changingMax">
-                    <IonCard>
-                        <IonThumbnail id="Thumbnail">
-                         <IonImg src={"./img/Apresenta.png"} id="imgIon"/>   
-                        </IonThumbnail>
-                            <div id="handsome">
-                                <h2 id="textInside">Angela Davis, uma breve biografia de uma grande Mulher:</h2>
-                            </div>
-                    </IonCard>
+                <IonCol id="project-apresentacao">                    
+                    <IonImg src={"./img/Apresenta.png"} id="img-apresentation"/>   
+            
+                    <div id="project-title">
+                        <h2 id="textInside">Angela Davis, uma breve biografia de uma grande Mulher:</h2>
+                    </div>
+                    
                 </IonCol>
             </IonRow>
+
+            {/*Conteudo*/}
             <IonRow className="ion-justify-content-start">
                 <IonCol id="columnText">
 
                 </IonCol>
             </IonRow>
+            
         </IonContent>
     )
 }
