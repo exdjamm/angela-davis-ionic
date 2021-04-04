@@ -53,7 +53,7 @@ const Menu: React.FC<language> = ({lang,menu}) => {
   }
 ];
   return (
-    <IonMenu contentId="main" type="push">
+    <IonMenu contentId="main"  type="overlay">
       <IonContent>
         <IonList id="inbox-list">
           <IonListHeader>{menu}</IonListHeader>
