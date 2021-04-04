@@ -4,8 +4,8 @@ import { useState } from 'react';
 
 //#region Imports components
 import HeaderInit from "../components/HeaderInit";
-import BodyInit from "../components/pag1/BodyInit";
-import FooterInit from "../components/pag1/FooterInit";
+import BodyInit from "../components/Home/BodyInit";
+import FooterInit from "../components/Home/FooterInit";
 import {default as lang} from "../components/language.json";
 //#endregion
  
