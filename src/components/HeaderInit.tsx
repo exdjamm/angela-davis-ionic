@@ -1,4 +1,4 @@
-import { IonTitle, IonButton, IonGrid, IonPopover, IonIcon, IonCard, IonImg, IonThumbnail, IonButtons, IonMenuButton } from '@ionic/react';
+import { IonTitle, IonButton, IonGrid, IonRow, IonCol, IonPopover, IonIcon, IonCard, IonImg, IonThumbnail, IonButtons, IonMenuButton } from '@ionic/react';
 import { useState } from 'react';
 import "./HeaderInit.css";
 import { globeOutline } from 'ionicons/icons';
@@ -16,21 +16,50 @@ const HeaderInit: React.FC<params> = ({value, setValue}) =>{
 
     return (
         <IonGrid>
-            <IonButtons><IonMenuButton/></IonButtons>
-            <IonTitle id="title">{value}</IonTitle>
-            <IonButton id="left" onClick={(e:any)=>setLang({showPop:true, event:e})}>
-                <IonIcon icon={globeOutline}></IonIcon>
-            </IonButton>
-            <IonPopover isOpen={lang.showPop} event={lang.event} onDidDismiss={()=>setLang({showPop:false,event:undefined})}>
-                {languagers.map((selectLanguageProps)=>{
-                    return(
-                        <IonCard button={true} onClick={()=>{
-                            setLang({showPop:false,event:undefined});
-                            setValue(selectLanguageProps.name);
-                        }} ><IonThumbnail id="img"><IonImg src={selectLanguageProps.src}></IonImg></IonThumbnail> {selectLanguageProps.description}</IonCard>
-                    )
-                })}
+            <IonRow>
+                <IonButtons>
+                    <IonMenuButton/>
+                </IonButtons>
+
+                <IonTitle id="title">
+                   {value}
+                </IonTitle>
+
+                <IonButton id="left" onClick={(e:any)=>setLang({showPop:true, event:e})}>
+                    <IonIcon icon={globeOutline}></IonIcon>
+                </IonButton>
+
+                <IonPopover 
+                isOpen={lang.showPop} 
+                event={lang.event} 
+                onDidDismiss={()=>setLang({showPop:false,event:undefined})}>
+
+                    {
+                        languagers.map(
+                            (selectLanguageProps)=>{
+                                return(
+                                    <IonCard 
+                                    button={true} 
+                                    onClick={
+                                        ()=>{
+                                            setLang({showPop:false,event:undefined});
+                                            setValue(selectLanguageProps.name);
+                                        }
+                                    } >
+                                        <IonThumbnail id="img">
+                                            <IonImg src={selectLanguageProps.src}></IonImg>
+                                        </IonThumbnail> 
+
+                                    {selectLanguageProps.description}
+
+                                    </IonCard>
+                                )
+                            }
+                        )
+                    }
+
                 </IonPopover>
+            </IonRow>
         </IonGrid>
     );
 };
