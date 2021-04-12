@@ -1,9 +1,9 @@
-import { IonCard, IonContent, IonImg, IonCol, IonRow, IonThumbnail, IonText } from "@ionic/react";
+import { IonContent, IonImg, IonCol, IonRow, } from "@ionic/react";
 import "./BodyInit.css";
 
 interface params{lang:string[]};
 
-const BodyInit : React.FC<params> = (lang) =>{
+const BodyInit : React.FC<params> = ({ lang }) =>{
 
     return(
         <IonContent >
@@ -13,7 +13,7 @@ const BodyInit : React.FC<params> = (lang) =>{
                     <IonImg src={"./img/Apresenta.png"} id="img-apresentation"/>   
             
                     <div id="project-title">
-                        <h2 id="textInside">Angela Davis, uma breve biografia de uma grande Mulher:</h2>
+                        <h2 id="textInside">{lang[0]}</h2>
                     </div>
                     
                 </IonCol>

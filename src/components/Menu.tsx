@@ -1,53 +1,58 @@
 import {  IonContent,  IonIcon,  IonItem,  IonLabel,  IonList,  IonListHeader,  IonMenu,  IonMenuToggle} from '@ionic/react';
-import {default as lang} from "./language.json";
 import { useLocation } from 'react-router-dom';
 import { femaleOutline, femaleSharp, homeOutline, homeSharp,  paperPlaneOutline, paperPlaneSharp, peopleOutline, peopleSharp } from 'ionicons/icons';
 import './Menu.css';
-import {language} from '../pages/Home';
-import { useState } from 'react';
-
+import {default as portuguese} from '../components/language/pt-br.json';
+import {default as english} from '../components/language/en-usa.json';
 
 
 interface AppPage {
+  name:string;
   url: string;
   iosIcon: string;
   mdIcon: string;
   title: string;
 }
 
-interface language{lang:string[], menu:string}
-
-const Menu: React.FC<language> = ({lang,menu}) => {
+const Menu: React.FC = () => {
   const location = useLocation();
-  var x = 0;
+  const lang = location.pathname.split('/')[1];
+  console.log(lang)
+  var language = lang === "pt-br" ? portuguese : english;
+  
   const appPages: AppPage[] = [
   {
-    title: lang[0],
-    url: '/page/home',
+    name:"home",
+    title: language.menu[0],
+    url: '/'+lang+'/home',
     iosIcon: homeOutline,
     mdIcon: homeSharp
   },
   {
-    title: lang[1],
+    name:"doesn't exist",
+    title: language.menu[1],
     url: '',
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp
   },
   {
+    name:"Angela Davis",
     title: "Angela Davis",
-    url: '/page/AngelaDavis',
+    url: '/'+lang+'/AngelaDavis',
     iosIcon: femaleOutline,
     mdIcon: femaleSharp
   },
   {
-    title: lang[2],
-    url: '/page/We',
+    name:"We",
+    title: language.menu[2],
+    url: '/'+lang+'/We',
     iosIcon: peopleOutline,
     mdIcon: peopleSharp
   },
   {
-    title: lang[3],
-    url: '/page/Contact',
+    name:"contact",
+    title: language.menu[3],
+    url: '/'+lang+'/Contact',
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp
   }
@@ -56,11 +61,11 @@ const Menu: React.FC<language> = ({lang,menu}) => {
     <IonMenu contentId="main"  type="overlay">
       <IonContent>
         <IonList id="inbox-list">
-          <IonListHeader>{menu}</IonListHeader>
+          <IonListHeader>{language.headerMenu}</IonListHeader>
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>
-                <IonItem className={location.pathname === appPage.url ? 'selected' : ''} routerLink={appPage.url} routerDirection="none" lines="none" detail={false}>
+                <IonItem className={location.pathname.indexOf(appPage.name) !== -1 ? 'selected' : ''} routerLink={appPage.url} routerDirection="none" lines="none" detail={false}>
                   <IonIcon slot="start" ios={appPage.iosIcon} md={appPage.mdIcon} />
                   <IonLabel>{appPage.title}</IonLabel>
                 </IonItem>

@@ -1,24 +1,26 @@
 import { IonContent, IonFooter, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import './Home.css';
-import { useState } from 'react';
 
 //#region Imports components
 import HeaderInit from "../components/HeaderInit";
 import BodyInit from "../components/Home/BodyInit";
 import FooterInit from "../components/Home/FooterInit";
-import {default as lang} from "../components/language.json";
+import { useParams } from 'react-router';
+import {default as portuguese} from '../components/language/pt-br.json';
+import {default as english} from '../components/language/en-usa.json';
 //#endregion
  
-var language = lang.portuguese;
-interface path {header:string[],body:string[],footer:string[]};
-interface lang {path:path, setLang:Function}
 
-const Home: React.FC<lang> = ({path, setLang}) => {
+
+const Home: React.FC = () => {
+  const {lang} = useParams< {lang:string;} >();
+  var language = lang === "pt-br" ? portuguese : english;
+
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <HeaderInit value={path.header[0]} setValue={setLang}/>
+          <HeaderInit value={language.home.header}/>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -27,14 +29,13 @@ const Home: React.FC<lang> = ({path, setLang}) => {
             <IonTitle size="large">Angela Davis - main</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <BodyInit lang={path.body}/>
+        <BodyInit lang={language.home.body}/>
       </IonContent>
       <IonFooter>
-          <FooterInit values={path.footer}/>
+          <FooterInit values={language.home.footer}/>
       </IonFooter>
     </IonPage>
   );
 };
 
-export {language};
 export default Home;

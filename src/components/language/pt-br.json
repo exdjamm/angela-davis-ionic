@@ -1,0 +1,9 @@
+{
+    "home":{
+        "header":"início",
+        "body":["Angela Davis, uma breve biografia de uma grande Mulher:"],
+        "footer":["em progresso...","autores: Exodo Jaffar e João Lucas"]
+    },
+    "menu":["início","Redações","Angela Davis","Quem somos?","Contato"],
+    "headerMenu":"Navegue pelo site"
+}

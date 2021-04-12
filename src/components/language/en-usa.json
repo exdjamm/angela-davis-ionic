@@ -1,0 +1,9 @@
+{
+    "home":{
+        "header":"Start",
+        "body":["Angela Davis, a brief biograaphy of a big Woman:"],
+        "footer":["in progress...","Owners: Exodo Jaffar e João Lucas"]
+    },
+    "menu":["Start","Essays","Angela Davis","Who are we?","Contact"],
+    "headerMenu":"navigate through the menu"
+}

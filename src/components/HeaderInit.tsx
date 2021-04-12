@@ -1,16 +1,18 @@
-import { IonTitle, IonButton, IonGrid, IonRow, IonCol, IonPopover, IonIcon, IonCard, IonImg, IonThumbnail, IonButtons, IonMenuButton } from '@ionic/react';
+import { IonTitle, IonButton, IonGrid, IonRow, IonPopover, IonIcon, IonCard, IonImg, IonThumbnail, IonButtons, IonMenuButton } from '@ionic/react';
 import { useState } from 'react';
 import "./HeaderInit.css";
 import { globeOutline } from 'ionicons/icons';
-import {default as language} from "./language.json";
+import { useLocation } from 'react-router';
 
 interface languages {name:any, description:String, src:string};
-interface params {value:String, setValue:Function};
+interface params {value:String};
 
 
-const HeaderInit: React.FC<params> = ({value, setValue}) =>{
+const HeaderInit: React.FC<params> = ({value}) =>{
+    const location = "/" + useLocation().pathname.split('/')[2];
 
-    const languagers : languages[] =[{name:language.portuguese,description:"Mude a língua para Pt-Br",src:language.portuguese.srcImg},{name:language.english,description:"Change the language to En-USA",src:language.english.srcImg}]
+    const languagers : languages[] =[{name:"pt-br",description:"Mude a língua para Pt-Br",src:"./img/pt-br.png"},
+    {name:"en-usa",description:"Change the language to En-USA",src:"./img/en-usa.png"}]
 
     const [lang, setLang] = useState({showPop : false, event:undefined});
 
@@ -40,12 +42,8 @@ const HeaderInit: React.FC<params> = ({value, setValue}) =>{
                                 return(
                                     <IonCard 
                                     button={true} 
-                                    onClick={
-                                        ()=>{
-                                            setLang({showPop:false,event:undefined});
-                                            setValue(selectLanguageProps.name);
-                                        }
-                                    } >
+                                    href={'/'+selectLanguageProps.name+location}
+                                   >
                                         <IonThumbnail id="img">
                                             <IonImg src={selectLanguageProps.src}></IonImg>
                                         </IonThumbnail> 
