@@ -44,14 +44,14 @@ const Menu: React.FC = () => {
   },
   {
     name:"We",
-    title: language.menu[2],
+    title: language.menu[3],
     url: '/'+lang+'/We',
     iosIcon: peopleOutline,
     mdIcon: peopleSharp
   },
   {
     name:"contact",
-    title: language.menu[3],
+    title: language.menu[4],
     url: '/'+lang+'/Contact',
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp
