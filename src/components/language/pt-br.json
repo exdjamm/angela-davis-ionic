@@ -1,7 +1,13 @@
 {
     "home":{
         "header":"início",
-        "body":["Angela Davis, uma breve biografia de uma grande Mulher:"],
+        "body":["Angela Davis, uma breve biografia de uma grande Mulher:"
+            , "O projeto consiste no desenvolvimento de um Web Site para contar a história e as ações de algumas das figuras negras na Literatura."
+            , "O site foi desenvolvidos nas disciplinas:"
+            ,"Desenvolvimento Web 2"
+            ,"Língua Portuguesa"
+            ,"Inglês Técnico"
+            ,"Juntamente ao professor de sociologia: Guilherme Tommaselli", "Segue os Sites consultados para a pesquisa sobre as redações e vida de Angela Davis:","https://brasilescola.uol.com.br/filosofia/angela-davis.htm","https://www.hypeness.com.br/2017/01/a-vida-e-a-luta-de-angela-davis/","https://revistagalileu.globo.com/Sociedade/noticia/2016/11/4-reflexoes-para-conhecer-o-pensamento-de-angela-davis.html","disponiveis apenas em português"],
         "footer":["em progresso...","autores: Exodo Jaffar e João Lucas"]
     },
     "menu":["início","Redações","Angela Davis","Quem somos?","Contato"],

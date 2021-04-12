@@ -7,11 +7,19 @@
 #project-apresentacao{
     padding-top: 0;
 }
-
+#titleListSub{
+    font-size: larger;
+}
+#textCommum{
+    font-size: x-large;
+}
+#content{
+    margin:30px;
+}
 
 #project-apresentacao #project-title{
     position:  absolute !important;
-    bottom: 0;
+    bottom: 5px;
     
     height: 4.2rem;
     width: 80%;
@@ -19,6 +27,12 @@
 
     background-color: rgba(254, 254, 255, 0.534);
     color: black;
+}
+.Hypeness{
+    top:-60px;
+    }
+#cardFinal{
+    height: 50%;
 }
 
 #project-apresentacao #project-title h2{
@@ -29,12 +43,37 @@
 @media (max-width: 748px){
     #project-apresentacao #project-title{
         height: auto;
-        width: 100%;
+        width: 98.5%;
         margin: 0 0;
     }    
     #project-apresentacao #project-title h2{
         text-align: left;
         font-weight: bold;
         padding-left: 2.6rem;
+    }
+}
+@media (max-width:550px){
+    #project-apresentacao #project-title{
+        height: auto;
+        width: 98%;
+        margin: 0 0;
+    }
+    
+}
+@media (max-width:450px){
+    #project-apresentacao #project-title{
+        height: auto;
+        width: 97.5%;
+        margin: 0 0;
+    }  
+    #content{
+        margin:15px;
+        text-align: justify;
+    }
+    #titleListSub{
+        font-size: medium;
+    }
+    #textCommum{
+        font-size: large;
     }
 }

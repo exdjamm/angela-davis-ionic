@@ -1,4 +1,6 @@
-import { IonContent, IonImg, IonCol, IonRow, } from "@ionic/react";
+import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListHeader, IonIcon, IonCard, } from "@ionic/react";
+import { EMLINK } from "node:constants";
+import React from "react";
 import "./BodyInit.css";
 
 interface params{lang:string[]};
@@ -20,12 +22,43 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
             </IonRow>
 
             {/*Conteudo*/}
-            <IonRow className="ion-justify-content-start">
-                <IonCol id="columnText">
+            <div id="content">
+                <IonRow className="ion-justify-content-start">
+                    <IonCol id="columnText">
+                        <IonText id="textCommum">{lang[1]}</IonText><br/><br/>
+                        <IonList>
+                            <IonListHeader id="titleListSub">{lang[2]}</IonListHeader>
+                            {[lang[3],lang[4],lang[5]].map(
+                                (elm, index,key)=>{return(
+                                    <IonItem routerDirection="none" lines="full" detail={true}>
+                                    <IonIcon slot="start"/>{elm}
+                                </IonItem>
+                            )})} 
+                            {lang[6]}
+                        </IonList><br/>
+                        <IonText id="textCommum">{lang[7]}</IonText>
+                        <IonRow>
+                        {
+                        [
+                            {one:lang[8],link:"./img/brasilescola.png",nome:"Brasil Escola"},
+                            {one:lang[9],link:"./img/hypeness.png",nome:"Hypeness"},
+                            {one:lang[10],link:"./img/geledes.png",nome:"Porta Geledés."}].map(
+                                (elm)=>{
+                                    return(
+                                    <IonCol>
+                                        <IonCard target="_blank" button={true} href={elm.one} id={"cardFinal"}>
+                                            <nav className={elm.nome}><IonImg id="fixingImage"  src={elm.link}>{elm.nome}</IonImg></nav>
+                                        </IonCard>
+                                    </IonCol>
+                                    )
+                                }
+                            )
+                        }
+                        </IonRow>
+                    </IonCol>
+                </IonRow>
+            </div>
 
-                </IonCol>
-            </IonRow>
-            
         </IonContent>
     )
 }

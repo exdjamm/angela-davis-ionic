@@ -19,7 +19,7 @@ const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar >
           <HeaderInit value={language.home.header}/>
         </IonToolbar>
       </IonHeader>
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
         </IonHeader>
         <BodyInit lang={language.home.body}/>
       </IonContent>
-      <IonFooter>
+      <IonFooter color={"primary"}>
           <FooterInit values={language.home.footer}/>
       </IonFooter>
     </IonPage>
