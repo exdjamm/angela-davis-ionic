@@ -8,7 +8,7 @@ import {default as english} from '../components/language/en-usa.json';
 
 interface AppPage {
   name:string;
-  url: string;
+  url: string | undefined;
   iosIcon: string;
   mdIcon: string;
   title: string;
@@ -31,7 +31,7 @@ const Menu: React.FC = () => {
   {
     name:"doesn't exist",
     title: language.menu[1],
-    url: '',
+    url: undefined,
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp
   },
