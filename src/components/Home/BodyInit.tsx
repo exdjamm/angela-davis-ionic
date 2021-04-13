@@ -1,5 +1,4 @@
-import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListHeader, IonIcon, IonCard, } from "@ionic/react";
-import { EMLINK } from "node:constants";
+import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListHeader, IonCard, } from "@ionic/react";
 import React from "react";
 import "./BodyInit.css";
 
@@ -30,10 +29,10 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
                             <IonListHeader id="titleListSub">{lang[2]}</IonListHeader>
                             {[lang[3],lang[4],lang[5]].map(
                                 (elm, index,key)=>{return(
-                                    <IonItem routerDirection="none" lines="full" detail={true}>
-                                    <IonIcon slot="start"/>{elm}
-                                </IonItem>
-                            )})} 
+                                    <IonItem routerDirection="none" lines="inset" detail={false}>
+                                        {elm}
+                                    </IonItem>
+                            )})} <br/>
                             {lang[6]}
                         </IonList><br/>
                         <IonText id="textCommum">{lang[7]}</IonText>

@@ -9,10 +9,23 @@
             , "English tecnican"
             ,"together the sociology teacher: Guilherme Tommaselli", 
             "The sites that the information has been taken about the life and work of Angela Davis:",
-            "https://brasilescola.uol.com.br/filosofia/angela-davis.htm","https://www.hypeness.com.br/2017/01/a-vida-e-a-luta-de-angela-davis/","https://www.geledes.org.br/angela-davis-2/"
+            "https://brasilescola.uol.com.br/filosofia/angela-davis.htm"
+            ,"https://www.hypeness.com.br/2017/01/a-vida-e-a-luta-de-angela-davis/","https://www.geledes.org.br/angela-davis-2/"
             ,"Available just in portuguese"],
         "footer":["in progress...","Owners: Exodo Jaffar e João Lucas"]
     },
     "menu":["Start","Essays","Angela Davis","Who are we?","Contact"],
-    "headerMenu":"navigate through the menu"
+    "headerMenu":"navigate through the menu",
+    "AD":{
+        "header":"Angela Davis",
+        "body":["The life and fight of Angela Davis:","- Who is She?",
+            "Angela Davis is an philosopher, teacher, writer and american activist. Since 1960, Davis fight for black people and women rights.",
+            "- What are the ideologies of her?",
+            "Angela had contact with the progressism in 1959 with a white pastor. In 1960 she had contact with the Frankfurt school (ideology). So, she believes that marxism is the best politican and social organization, because according to her the marxism worries about a equal money distribuition. Therefore, she says the her is: marxist, activist by the black people rights and feminist.",
+            "- The fame and your risks:",
+            "After she joined up the party communist, she was persecuted by the government that watched a dangerous moment in cold war. This fact letted her more revolted with the government, where in response she strogest her ligations with the political militanci. Later, Angela became a simpatizante of social and political group of combat to the racism called \"Black Panther\". After the big increase, in 1970 ,the California government started the discussion about the prohibition of guns port in the street to disarm the Panthers",
+            "- The answer",
+            ""
+        ]
+    }
 }

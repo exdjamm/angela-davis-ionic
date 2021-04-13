@@ -27,7 +27,7 @@ const HeaderInit: React.FC<params> = ({value}) =>{
                    {value}
                 </IonTitle>
 
-                <IonButton id="left" onClick={(e:any)=>setLang({showPop:true, event:e})}>
+                <IonButton id="left" onClick={(e:any)=>setLang({showPop:true, event:e})} color="danger">
                     <IonIcon icon={globeOutline}></IonIcon>
                 </IonButton>
 

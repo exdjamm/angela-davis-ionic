@@ -36,7 +36,7 @@ const Menu: React.FC = () => {
     mdIcon: paperPlaneSharp
   },
   {
-    name:"Angela Davis",
+    name:"AngelaDavis",
     title: "Angela Davis",
     url: '/'+lang+'/AngelaDavis',
     iosIcon: femaleOutline,
