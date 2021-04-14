@@ -4,11 +4,20 @@ import BodyHeader from "../BodyHeader";
 
 import "./BodyInit.css";
 
-interface params{lang:string[]};
+interface params{
+    lang:any,
+};
+
+interface bodyI{
+    header_title: string,
+    content: string[],
+    [key:string]: any;
+
+};
 
 const BodyInit : React.FC<params> = ({ lang }) =>{
 
-    const body = lang
+    const body:bodyI = lang
 
     return(
         <IonContent >
