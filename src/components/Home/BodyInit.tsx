@@ -24,14 +24,15 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
             {/*Apresentação*/}
             <BodyHeader 
                 img_apresenta="./img/Apresenta.png" 
-                header_title={body['header_title']} />
+                header_title={body['header_title']} 
+                className='' />
 
             {/*Conteudo*/}
             <div id="content">
                 <IonRow className="ion-justify-content-start">
                     <IonCol id="columnText">
 
-                        <h2 class="textCommum">
+                        <h2 className="textCommum">
                             Sobre o projeto
                         </h2>
                         <IonRow>
