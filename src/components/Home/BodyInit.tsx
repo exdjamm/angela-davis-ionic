@@ -23,7 +23,7 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
                 <IonRow className="ion-justify-content-start">
                     <IonCol id="columnText">
 
-                        <h2 class="textCommum">
+                        <h2 className="textCommum">
                             Sobre o projeto
                         </h2>
                         <IonRow>
