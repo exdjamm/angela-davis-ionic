@@ -1,9 +1,9 @@
 import { IonContent, IonFooter, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './Home.css';
+import './AngDav.css';
 
 //#region Imports components
 import HeaderInit from "../components/HeaderInit";
-import BodyInit from "../components/Home/BodyInit";
+import BodyAngDav from "../components/AngDav/BodyAngDav";
 import FooterInit from "../components/Home/FooterInit";
 import { useParams } from 'react-router';
 import {default as portuguese} from '../components/language/pt-br.json';
@@ -12,7 +12,7 @@ import {default as english} from '../components/language/en-usa.json';
  
 
 
-const Home: React.FC = () => {
+const AngDav: React.FC = () => {
   const {lang} = useParams< {lang:string;} >();
   var language = lang === "pt-br" ? portuguese : english;
 
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar >
-          <HeaderInit value={language.home.header}/>
+          <HeaderInit value={language.AD.header}/>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">Angela Davis - main</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <BodyInit lang={language.home.body}/>
+        <BodyAngDav lang={language.AD.body}/>
       </IonContent>
       <IonFooter color={"primary"}>
           <FooterInit values={language.home.footer}/>
@@ -38,4 +38,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default AngDav;

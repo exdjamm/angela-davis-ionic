@@ -1,0 +1,18 @@
+#left{
+    position: absolute;
+    right: 0px;
+    top:0px
+}
+#left_{
+    position: absolute;
+    right: 70px;
+}
+#img{
+    width: 100%;
+}
+#flex{
+    display: inline-flex;
+}
+#title{
+    font-size: 20px;
+}

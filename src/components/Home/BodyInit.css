@@ -1,0 +1,42 @@
+p {
+    text-indent: 3.5rem;
+    text-align: justify;
+}
+
+#content{
+    margin:30px;
+}
+
+#cardFinal{
+    height: 50%;
+}
+
+.textCommum{
+    font-size: x-large;
+}
+
+.titleListSub{
+    font-size: larger;
+}
+
+.bgColorGray{
+    --background: #a4a4a4 !important;
+    --color: black;
+}
+
+.Hypeness{
+    top:-60px;
+}
+
+@media (max-width:450px){
+    #content{
+        margin:15px;
+        text-align: justify;
+    }
+    .titleListSub{
+        font-size: medium;
+    }
+    .textCommum{
+        font-size: large;
+    }
+}

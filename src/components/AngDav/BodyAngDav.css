@@ -1,0 +1,36 @@
+.cardText{
+    padding: 10px;
+}
+
+#wanted{
+    max-width: 600px;
+}
+#fixing{
+    bottom: 10px;
+    position: fixed !important;
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+.header-image #img-apresentation {
+    object-position: 0px 43% !important;
+}
+
+.titleCommum{
+    font-size: xx-large;
+}
+
+.text-sla-a{
+    font-size: x-large;
+}
+
+@media (max-width:450px){
+    .text-sla-a{
+        font-size: large;
+    }
+    .titleCommum{
+        font-size: x-large;
+    }
+}
