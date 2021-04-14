@@ -50,7 +50,7 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
                             </IonCol>
                         </IonRow>
 
-                        <h3 class="titleListSub">
+                        <h3 className="titleListSub">
                             {body.content[2]}
                         </h3>
 
