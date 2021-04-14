@@ -1,4 +1,5 @@
 import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListHeader, IonCard, } from "@ionic/react";
+import BodyHeader from "../BodyHeader";
 import React from "react";
 import "./BodyInit.css";
 
@@ -9,16 +10,10 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
     return(
         <IonContent >
             {/*Apresentação*/}
-            <IonRow className="ion-justify-content-center">
-                <IonCol id="project-apresentacao">                    
-                    <IonImg src={"./img/Apresenta.png"} id="img-apresentation"/>   
-            
-                    <div id="project-title">
-                        <h2 id="textInside">{lang[0]}</h2>
-                    </div>
-                    
-                </IonCol>
-            </IonRow>
+            <BodyHeader 
+                img_apresenta="./img/Apresenta.png" 
+                header_title={body['header_title']} 
+            />
 
             {/*Conteudo*/}
             <div id="content">

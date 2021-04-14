@@ -1,5 +1,6 @@
 import { IonContent, IonImg, IonCol, IonRow, IonText, IonCard, IonFab, IonFabButton, IonIcon, } from "@ionic/react";
 import { help } from "ionicons/icons";
+import BodyHeader from "../BodyHeader";
 import React, { useState } from "react";
 import "./BodyAngDav.css";
 
@@ -10,16 +11,9 @@ const BodyAngDav : React.FC<params> = ({ lang }) =>{
     return(
         <IonContent >
             {/*Apresentação*/}
-            <IonRow className="ion-justify-content-center">
-                <IonCol id="project-apresentacao">                    
-                    <IonImg src={"./img/AD.jfif"} id="img-apresentation"/>   
-            
-                    <div id="project-title">
-                        <h2 id="textInside">{lang[0]}</h2>
-                    </div>
-                    
-                </IonCol>
-            </IonRow>
+            <BodyHeader 
+                img_apresenta="./img/AD.jfif" 
+                header_title={body['header_title']} />
 
             {/*Conteudo*/}
             <div id="content">
