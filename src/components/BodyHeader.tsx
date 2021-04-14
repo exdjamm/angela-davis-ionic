@@ -4,10 +4,10 @@ import "./BodyHeader.css";
 
 interface params{header_title:string[], img_apresenta:string[]};
 
-const BodyHeader : React.FC<params> = ({ header_title, img_apresenta }) =>{
+const BodyHeader : React.FC<params> = ({ header_title, img_apresenta, className }) =>{
 
 	return (
-		<IonRow className="ion-justify-content-center">
+		<IonRow className={`ion-justify-content-center ${className != undefined ? className : ''}`} >
             <IonCol id="project-apresentacao">                    
                 <IonImg src={img_apresenta} id="img-apresentation"/>   
         
