@@ -2,7 +2,7 @@ import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListH
 import React from "react";
 import "./BodyHeader.css";
 
-interface params{header_title:string[]};
+interface params{header_title:string[], img_apresenta:string[]};
 
 const BodyHeader : React.FC<params> = ({ header_title, img_apresenta }) =>{
 
