@@ -18,7 +18,7 @@ const BodyAngDav : React.FC<params> = ({ lang }) =>{
                 header_title={body[0]} className="header-image"/>
 
             {/*Conteudo*/}
-            <div id="content">
+            <div id="content"className="justify-text">
                 {lang.map((elm,index)=>{
                     if(index === 0) return;
                     if (index === 8){

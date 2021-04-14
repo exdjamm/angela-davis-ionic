@@ -10,6 +10,10 @@
     position: fixed !important;
 }
 
+.justify-text{
+    text-align: justify;
+}
+
 .header-image #img-apresentation {
     object-position: 0px 43% !important;
 }
