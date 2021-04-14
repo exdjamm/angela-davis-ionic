@@ -15,7 +15,8 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
             {/*Apresentação*/}
             <BodyHeader 
                 img_apresenta="./img/Apresenta.png" 
-                header_title={body['header_title']} />
+                header_title={body['header_title']} 
+                className='' />
 
             {/*Conteudo*/}
             <div id="content">
