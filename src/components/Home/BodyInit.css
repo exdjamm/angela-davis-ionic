@@ -1,18 +1,31 @@
-#titleListSub{
-    font-size: larger;
+p {
+    text-indent: 3.5rem;
+    text-align: justify;
 }
-#textCommum{
-    font-size: x-large;
-}
+
 #content{
     margin:30px;
 }
 
-.Hypeness{
-    top:-60px;
-    }
 #cardFinal{
     height: 50%;
+}
+
+.textCommum{
+    font-size: x-large;
+}
+
+.titleListSub{
+    font-size: larger;
+}
+
+.bgColorGray{
+    --background: #a4a4a4 !important;
+    --color: black;
+}
+
+.Hypeness{
+    top:-60px;
 }
 
 @media (max-width:450px){
@@ -20,10 +33,10 @@
         margin:15px;
         text-align: justify;
     }
-    #titleListSub{
+    .titleListSub{
         font-size: medium;
     }
-    #textCommum{
+    .textCommum{
         font-size: large;
     }
 }
