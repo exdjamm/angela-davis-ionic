@@ -1,16 +1,7 @@
-
-#cardText{
+.cardText{
     padding: 10px;
 }
-#titleCommum{
-    font-size: xx-large;
-}
-#textCommum{
-    font-size: x-large;
-}
-#content{
-    margin:30px;
-}
+
 #wanted{
     max-width: 600px;
 }
@@ -19,22 +10,23 @@
     position: fixed !important;
 }
 
-.Hypeness{
-    top:-60px;
-    }
-#cardFinal{
-    height: 50%;
+.header-image #img-apresentation {
+    object-position: 0px 43% !important;
+}
+
+.titleCommum{
+    font-size: xx-large;
+}
+
+.text-sla-a{
+    font-size: x-large;
 }
 
 @media (max-width:450px){
-    #content{
-        margin:15px;
-        text-align: justify;
-    }
-    #textCommum{
+    .text-sla-a{
         font-size: large;
     }
-    #titleCommum{
+    .titleCommum{
         font-size: x-large;
     }
 }
