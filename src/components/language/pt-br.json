@@ -1,37 +1,47 @@
 {
-    "home":{
-        "header":"início",
-        "body":["Angela Davis, uma breve biografia de uma grande Mulher:"
-            , "O projeto consiste no desenvolvimento de um Web Site para contar a história e as ações de algumas das figuras negras na Literatura."
-            , "O site foi desenvolvidos nas disciplinas:"
-            ,"Desenvolvimento Web 2"
-            ,"Língua Portuguesa"
-            ,"Inglês Técnico"
-            ,"Juntamente ao professor de sociologia: Guilherme Tommaselli",
-             "Segue os Sites consultados para a pesquisa sobre as redações e vida de Angela Davis:","https://brasilescola.uol.com.br/filosofia/angela-davis.htm","https://www.hypeness.com.br/2017/01/a-vida-e-a-luta-de-angela-davis/",
-             "https://www.geledes.org.br/angela-davis-2/","disponiveis apenas em português"],
-        "footer":["em progresso...","autores: Exodo Jaffar e João Lucas"]
+  "home": {
+    "header": "início",
+    "body": {
+        "header_title":"Angela Davis, uma breve biografia de uma grande Mulher", 
+        "content":[
+                "O projeto consiste no desenvolvimento de um Web Site para contar a história e as ações de algumas das figuras negras na Literatura.",
+                "Nos (os autores do site) escolhemos a autora Angela Davis, e nesse site esteremos mostrando a voce a historia de Angela e sua tragetoria como uma autora negra nos Estados Unidos.",
+                "O projeto foi desenvolvido junto as disciplinas:",
+                "Desenvolvimento Web 2",
+                "Língua Portuguesa",
+                "Inglês Técnico",
+                "Juntamente ao professor de sociologia: Guilherme Tommaselli",
+                "Segue os Sites consultados para a pesquisa sobre as redações e vida de Angela Davis:",
+                "https://brasilescola.uol.com.br/filosofia/angela-davis.htm",
+                "https://www.hypeness.com.br/2017/01/a-vida-e-a-luta-de-angela-davis/",
+                "https://www.geledes.org.br/angela-davis-2/",
+                "disponiveis apenas em português"
+            ]
+        
     },
-    "menu":["início","Redações","Angela Davis","Quem somos?","Contato"],
-    "headerMenu":"Navegue pelo site",
-    "AD":{
-        "header":"Angela Davis",
-        "body":["A vida e luta de Angela Davis:","- Quem é?",
-            "Angela Davis é uma filosofa, professora, escritora e ativista estadunidense. Desde 1960, Davis luta pelos direitos das pessoas negras e das mulheres.",
-            "- Quais ideias/ideologias movem Angela? ",
-            "Angela teve contato com o progressismo pela primeira vez em 1959 com um pastor branco. Em 1960 teve contato com a escola (ideológica) de Frankfurt. Ela então acredita que o marxismo é a melhor maneira de organização politica, pois segundo ela ele \"se preocupa com a distribuição igualitária de renda\".\nPortanto, ela se posiciona como marxista, ativista pelos direitos da pessoa negra e feminista.",
-            "- A Fama e seus Riscos:",
-            "Filiou-se ao partido comunista estadunidense e por isso Davis foi perseguida pelo governo que vivia um clima de incerteza da guerra fria. Esse fato a deixou mais revoltada com o governo, onde em resposta aumentou sua ligação com a militância política. Mais tarde tornou-se simpatizante do grupo político e social de combate ao racismo chamado de \"Panteras Negras\". Os Panteras estavam se tornando um grupo muito forte e grande nos EUA. Sua postura contra a violência policia foi um dos principais motivos. Em 1970, em uma tentativa de desarmar as Panteras Negras, o governo do estado da Califórnia discutia a proibição do porte de armas nas ruas.",
-            "- E as Panteras?",
-            "As panteras responderam indo até o prédio da assembléia californiana para discutir com os deputados e darem seu ponto de vista. Bob, o organizador da ida, cometeu um grande erro, ele acabou se dirigindo até o plenário onde não era seu objetivo de ida. Por estarem armados o episódio foi declarado como uma tentativa de intimidação do poder legislativo. O FBI enxergou na ocasião a chance de desqualificar e desmantelar os Panteras e nesse meio Angela foi acusada de ser uma das mentoras do episódio.",
-            "- Apenas aceitar? NÃO",
-            "Com a prisão decretada Angela não a aceitou e fugiu, sendo acompanhada dia a dia pela mídia no que foi uma das maiores caçadas humanas dos EUA. Angela acabou sendo presa em Outubro na cidade de Nova Iorque.",
-            "- A resposta do mundo:",
-            "Imediatamente foi criado um movimento pela libertação de Angela e outros líderes dos Panteras. John Lennon, Jean Paul Sartre e o famoso maestro Leonard Bernstein foram algumas das figuras que apoiaram o movimento",
-            "- O julgamento:",
-            "Pela falta de provas, em Junho de 1972, Angela Yvonne Davis foi declarada inocente por falta de provas.",
-            "- Duras críticas",
-            "Em 1975, Angela sofreu graves críticas pelo dissidente russo Aleksandr Solzhenitsyn, ele acusava ela de ser hipócrita por simpatizar com a URSS, ao negligenciar as condições dos prisioneiros políticos em regimes comunistas e por ignorar uma carta de presos políticos tchecos perseguidos pelo estado lhe pedindo ajuda."
-        ]
-    }
+    "footer": ["em progresso...", "autores: Exodo Jaffar e João Lucas"]
+  },
+  "menu": ["início", "Redações", "Angela Davis", "Quem somos?", "Contato"],
+  "headerMenu": "Navegue pelo site",
+  
+  "AD": {
+    "header": "Angela Davis",
+    "body": ["A vida e luta de Angela Davis:", "- Quem é?",
+      "Angela Davis é uma filosofa, professora, escritora e ativista estadunidense. Desde 1960, Davis luta pelos direitos das pessoas negras e das mulheres.",
+      "- Quais ideias/ideologias movem Angela? ",
+      "Angela teve contato com o progressismo pela primeira vez em 1959 com um pastor branco. Em 1960 teve contato com a escola (ideológica) de Frankfurt. Ela então acredita que o marxismo é a melhor maneira de organização politica, pois segundo ela ele \"se preocupa com a distribuição igualitária de renda\".\nPortanto, ela se posiciona como marxista, ativista pelos direitos da pessoa negra e feminista.",
+      "- A Fama e seus Riscos:",
+      "Filiou-se ao partido comunista estadunidense e por isso Davis foi perseguida pelo governo que vivia um clima de incerteza da guerra fria. Esse fato a deixou mais revoltada com o governo, onde em resposta aumentou sua ligação com a militância política. Mais tarde tornou-se simpatizante do grupo político e social de combate ao racismo chamado de \"Panteras Negras\". Os Panteras estavam se tornando um grupo muito forte e grande nos EUA. Sua postura contra a violência policia foi um dos principais motivos. Em 1970, em uma tentativa de desarmar as Panteras Negras, o governo do estado da Califórnia discutia a proibição do porte de armas nas ruas.",
+      "- E as Panteras?",
+      "As panteras responderam indo até o prédio da assembléia californiana para discutir com os deputados e darem seu ponto de vista. Bob, o organizador da ida, cometeu um grande erro, ele acabou se dirigindo até o plenário onde não era seu objetivo de ida. Por estarem armados o episódio foi declarado como uma tentativa de intimidação do poder legislativo. O FBI enxergou na ocasião a chance de desqualificar e desmantelar os Panteras e nesse meio Angela foi acusada de ser uma das mentoras do episódio.",
+      "- Apenas aceitar? NÃO",
+      "Com a prisão decretada Angela não a aceitou e fugiu, sendo acompanhada dia a dia pela mídia no que foi uma das maiores caçadas humanas dos EUA. Angela acabou sendo presa em Outubro na cidade de Nova Iorque.",
+      "- A resposta do mundo:",
+      "Imediatamente foi criado um movimento pela libertação de Angela e outros líderes dos Panteras. John Lennon, Jean Paul Sartre e o famoso maestro Leonard Bernstein foram algumas das figuras que apoiaram o movimento",
+      "- O julgamento:",
+      "Pela falta de provas, em Junho de 1972, Angela Yvonne Davis foi declarada inocente por falta de provas.",
+      "- Duras críticas",
+      "Em 1975, Angela sofreu graves críticas pelo dissidente russo Aleksandr Solzhenitsyn, ele acusava ela de ser hipócrita por simpatizar com a URSS, ao negligenciar as condições dos prisioneiros políticos em regimes comunistas e por ignorar uma carta de presos políticos tchecos perseguidos pelo estado lhe pedindo ajuda."
+    ]
+  }
 }
