@@ -33,7 +33,7 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
                     <IonCol id="columnText">
 
                         <h2 className="textCommum">
-                            Sobre o projeto
+                            {body.content[12]}
                         </h2>
                         <IonRow>
                             <IonCol size='8'>
