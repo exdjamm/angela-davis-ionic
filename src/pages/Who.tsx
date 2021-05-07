@@ -1,18 +1,18 @@
 import { IonContent, IonFooter, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './AngDav.css';
+import './who.css';
 
 //#region Imports components
 import HeaderInit from "../components/HeaderInit";
-import BodyAngDav from "../components/AngDav/BodyAngDav";
+import WhoBody from "../components/Who/WhoBody";
 import FooterInit from "../components/Home/FooterInit";
 import { useParams } from 'react-router';
 import {default as portuguese} from '../components/language/pt-br.json';
 import {default as english} from '../components/language/en-usa.json';
 //#endregion
- 
 
 
-const AngDav: React.FC = () => {
+
+const Who: React.FC = () => {
   const {lang} = useParams< {lang:string;} >();
   var language = lang === "pt-br" ? portuguese : english;
 
@@ -20,22 +20,22 @@ const AngDav: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar >
-          <HeaderInit value={language.AD.header}/>
+          <HeaderInit value={language.Who.Header}/>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Angela Davis - angDac</IonTitle>
+            <IonTitle size="large">Angela Davis - We</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <BodyAngDav lang={language.AD.body}/>
+        <WhoBody lang={language.Who.Body}/>
       </IonContent>
       <IonFooter color={"primary"}>
-          <FooterInit values={language.home.footer}/>
+          <FooterInit values={language.Who.footer}/>
       </IonFooter>
     </IonPage>
   );
 };
 
-export default AngDav;
+export default Who;

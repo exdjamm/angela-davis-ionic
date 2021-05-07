@@ -1,4 +1,4 @@
-import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListHeader, IonCard, } from "@ionic/react";
+import { IonImg, IonCol, IonRow,} from "@ionic/react";
 import React from "react";
 import "./BodyHeader.css";
 
@@ -8,13 +8,12 @@ const BodyHeader : React.FC<params> = ({ header_title, img_apresenta, className 
 
 	return (
 		<IonRow className={`ion-justify-content-center ${className != undefined ? className : ''}`} >
-            <IonCol id="project-apresentacao">                    
-                <IonImg src={img_apresenta} id="img-apresentation"/>   
-        
+            <IonCol id="project-apresentacao">
+                <IonImg src={img_apresenta} id="img-apresentation"/>
+
                 <div id="project-title">
                     <h2 id="textInside">{header_title}</h2>
                 </div>
-                
             </IonCol>
         </IonRow>
 	)

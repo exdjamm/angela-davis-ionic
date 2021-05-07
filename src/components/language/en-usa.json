@@ -43,5 +43,21 @@
             "Hard critics:",
             "In 1975, Angela was accused of hipocrisy by the russian dissident Aleksandr Solzhenitsyn, he was accussing her of be hipocrit by simpatize with the URSS, while neglecting the conditions of politicans prisoners in communists regimes and by ignore a cards of Tchecans politican prisoners asking by help"
         ]
-    }
+    },
+    "Who":{
+        "Header":"About us",
+        "Body":{
+            "imgs":["./img/Neabi.png","./img/Fabio.jpg","./img/Guilherme.gif","./img/Rafael.gif","./img/Malungos.jpeg"],
+            "describe":[
+              "The Nucleus of Afro-brazilian and indigenous studies (NEABI) has the function of auxiliary the studies, searches and extension actions that promote the reflection about ethnic-racial problems. \nLinked to teaching, search and IFMS campi extension directions, under the  extension pro-rectory guidelines (PROEX), the NEABI too try to contribute to the implementation of legal obligation that include at the scholar curriculum the theme: \"the afro-brazilian and indigenous history and culture\".",
+              "Fabio has graduation on computer engineer - \"Faculdades Associadas de São Paulo\" (2006), he has a specialization by the FACEL in teaching in Information Technology (2018) and specialization by the FIAR in gradation pedagogical in History. At the moment the Faria is a fixed teacher at IFMS. The teacher has experience at the area computation science, with emphasis on analyses and developing/web developing. Nowadays, the docent teach classes in IFMS-Campo Grandes",
+              "The Guilherme has graduation in social sciences by the \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2009). Master in education by \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2009) and doctor in education by \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2018). At the momment, he is sociology docent at \"Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul\"(IFMS). The teacher has experience in education area, with emphasis in education, working mainly in the next themes: Education, ethnic-racials relations and racism. Nowadays, the teacher teach classes in IFMS-Três lagoas",
+              "Literary language doctor and socials interfaces: studies compared by \"UNIOSTE\", with search about the process of critical analyze feminist literary on Brazil territory on romance of Conceição Evaristo, Insubmissas Lágrimas de Mulheres; literature and cultural practices master (scholarship holder FUNDECT) by \" Universidade Federal da Grande Dourados\" (2007), where the master analyzed the construction that the subject be suffers with the effects of immigration on romance, \"Americanah\" (2013), of Nigerian Chimamanda Ngozi Adichie. The master  has graduated in portuguese/english and your respectives literaturies by \"Universidade Estadual de Mato Grosso do Sul\" (2014); he has taught on the program of initialization to docency (PIBID/2014). Campuses IFMS-Campo Grande.",
+            ""
+        ],
+            "names":["NEABI","Fabio Faria","Guilherme Tomaselli","Rafael Souza","M.Z.D"],
+            "more":[]
+        },
+        "footer":["In progress... hey, try click at the names","Owners: Exodo Jaffar e João Lucas"]
+            }
 }
