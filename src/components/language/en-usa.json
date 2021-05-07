@@ -92,6 +92,18 @@
                     "Objetivos":["Teacher responsible by assist on project translate, taught technical English with the class"],
                     "Footer":"Lattes:",
                     "links":["http://lattes.cnpq.br/1191274764237349"]
+                  },
+                  "Êxodo Jaffar":{
+                    "header":"Êxodo Jaffar Marques",
+                    "Objetivos":["project dev together with João Lucas"],
+                    "Footer":"GitHub:",
+                    "links":["https://github.com/exodojaffar"]
+                  },
+                  "João Lucas":{
+                    "header":"João Lucas Paes",
+                    "Objetivos":["project dev together with Êxodo Jaffar"],
+                    "Footer":"GitHub:",
+                    "links":["https://github.com/joao-lucas-paes?tab=overview"]
                   }
             }
         },
