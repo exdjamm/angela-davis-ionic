@@ -28,6 +28,23 @@ p {
     top:-60px;
 }
 
+@media (max-width: 652px){
+    #firts-paragrafo{
+        flex-direction: column-reverse;
+    }
+
+    #primeiro-texto-aqui{
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    #img-side-text{
+        width: 66% !important;
+        align-self: center;
+        max-width: none !important;
+    }
+}
+
 @media (max-width:450px){
     #content{
         margin:15px;

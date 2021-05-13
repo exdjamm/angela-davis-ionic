@@ -3,6 +3,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import Home from './pages/Home';
+import Who from './pages/Who';
 import AngDav from './pages/AngDav';
 
 /* Core CSS required for Ionic components to work properly */
@@ -39,6 +40,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/:lang/AngelaDavis" exact={true}>
               <AngDav/>
+            </Route>
+            <Route path="/:lang/We" exact={true}>
+              <Who/>
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>

@@ -26,7 +26,7 @@ const AngDav: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Angela Davis - main</IonTitle>
+            <IonTitle size="large">Angela Davis - angDac</IonTitle>
           </IonToolbar>
         </IonHeader>
         <BodyAngDav lang={language.AD.body}/>

@@ -8,7 +8,6 @@
                 "Nos (os autores do site) escolhemos a autora Angela Davis, e nesse site esteremos mostrando a voce a historia de Angela e sua tragetoria como uma autora negra nos Estados Unidos.",
                 "O projeto foi desenvolvido junto as disciplinas:",
                 "Desenvolvimento Web 2",
-                "Língua Portuguesa",
                 "Inglês Técnico",
                 "Juntamente ao professor de sociologia: Guilherme Tommaselli",
                 "Segue os Sites consultados para a pesquisa sobre as redações e vida de Angela Davis:",
@@ -18,13 +17,11 @@
                 "disponiveis apenas em português",
                 "Sobre o Projeto"
             ]
-        
     },
     "footer": ["em progresso...", "autores: Exodo Jaffar e João Lucas"]
   },
   "menu": ["início", "Redações", "Angela Davis", "Quem somos?", "Contato"],
   "headerMenu": "Navegue pelo site",
-  
   "AD": {
     "header": "Angela Davis",
     "body": ["A vida e luta de Angela Davis:", "Quem é?",
@@ -44,5 +41,70 @@
       "Duras críticas",
       "Em 1975, Angela sofreu graves críticas pelo dissidente russo Aleksandr Solzhenitsyn, ele acusava ela de ser hipócrita por simpatizar com a URSS, ao negligenciar as condições dos prisioneiros políticos em regimes comunistas e por ignorar uma carta de presos políticos tchecos perseguidos pelo estado lhe pedindo ajuda."
     ]
+  },
+  "Who":{
+      "Header":"Sobre nós",
+      "Body":{
+        "click":"click aqui para abrir",
+        "imgs":["./img/Neabi.png","./img/Fabio.jpg","./img/Guilherme.gif","./img/Rafael.gif","./img/Malungos.jpeg","./img/jaffar.jpeg","./img/jl.jpeg"],
+        "describe":["De natureza propositiva e consultiva, o Núcleo de Estudos Afro-Brasileiros e Indígenas (Neabi) tem a função de auxiliar no direcionamento de estudos, pesquisas e ações de extensão que promovam a reflexão sobre as questões étnico-raciais.\nVinculado às Direções de Ensino, Pesquisa e Extensão dos campi do IFMS, sob as diretrizes da Pró-Reitoria de Extensão (Proex), o Neabi também busca contribuir para a implementação da exigência legal que obriga incluir no currículo escolar a temática “História e Cultura Afro-Brasileira e Indígena”.\nO Regulamento do Núcleo de Estudos Afro-brasileiros e Indígenas do IFMS traz as finalidades, objetivos, estrutura organizacional e competências do Neabi.",
+          "Possui graduação em Engenharia da Computação - Faculdades Associadas de São Paulo (2006), especialização pela FACEL em Docência em Ciência e Tecnologia da Informação (2018) e especialização pela FIAR em Licenciatura Pedagógica em História. Atualmente é professor efetivo do IFMS. Tem experiência na área de Ciência da Computação, com ênfase em Análise e Desenvolvimento/Desenvolvimento Web. Atualmente do Campus IFMS-Campo Grande",
+          "Possui graduação em Ciências Sociais pela Universidade Estadual Paulista Júlio de Mesquita Filho (2009), mestrado em Educação pela Universidade Estadual Paulista Júlio de Mesquita Filho (2012) e doutorado em Educação pela Universidade Estadual Paulista Júlio de Mesquita Filho (2018). Atualmente é docente de sociologia do Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul. Tem experiência na área de Educação, com ênfase em Educação, atuando principalmente nos seguintes temas: Educação, Relações étnico-raciais,Racismo. Atualmente do Campus IFMS-três Lagoas.",
+          "Doutorando em Letras/Linguagem literária e interfaces sociais: estudos comparados pela UNIOSTE, com a pesquisa sobre o processo de análise crítica literária feminista em território nacional no romance de Conceição Evaristo, Insubmissas Lágrimas de mulheres; mestre em Letras/Literatura e práticas culturais (Bolsista FUNDECT) pela Universidade Federal da Grande Dourados (2017), onde analisou a construção do sujeito que sofre com os efeitos da imigração no romance, Americanah (2013), da nigeriana Chimamanda Ngozi Adichie. Graduou-se em Letras Português/Inglês e suas respectivas Literaturas pela Universidade Estadual de Mato Grosso do Sul (2014); Lecionou no programa de iniciação à docência (PIBID/2014). Campus IFMS-Campo Grande.",
+          "Os Malungos de Zumbi e Dandara (M.Z.D) é um projeto de extensão voltado à formação básica para a educação das relações étnico-raciais na Escola municipal Olyntho Mancini, a partir do currículo escolar e da etnomatemática.",
+          "Aluno da turma 228, mas participa de algumas matérias pela 126 por meio da possibilidade dada pela instituição. Organizador do projeto Nhande Arandu da UFMS para a SNCT 2020; programador e desenvolvedor web além de criador do aplicativo EadGetTasks para a facilitação e organizações de tarefas do ambiente online do ifms.",
+          "Aluno da turma 126, no entanto, começou originalmente na turma 228 e conseguiu passar para o semestre a frente de sua turma. Fez o ensino fundamental na instituição \"Escola Municipal Professor Múcio Teixeira Jr.\", onde conseguiu três honrarias ao mérito na OBMEP e, assim, concluindo duas vezes o programa de iniciação científica da OBMEP. Após isso passou por uma seletiva do IFMS onde cursa o ensino médio integrado com informática."
+        ],
+        "names":["NEABI","Fabio Faria","Guilherme Tomaselli","Rafael Souza","M.Z.D","Êxodo Jaffar", "João Lucas"],
+        "more":{
+          "NEABI":{
+            "header":"Neabi - Objetivos:",
+            "Objetivos":["Promover ações de valorização das identidades negra e indígenas",
+                         "Realizar discussões sobre os componentes curriculares dos cursos ofertados pelo IFMS no sentido de concretizar o Plano Nacional de Implementação da Lei 11.645/2008",
+                         "Atuar como núcleo proponente e consultivo para assuntos referentes às políticas afirmativas, em especial à política de reserva de vagas para indígenas e afro-brasileiros nos processos seletivos e concursos públicos oferecidos"],
+             "Footer":"Para mais acesse:",
+             "links":["https://www.ifms.edu.br/assuntos/extensao/inclusao-e-diversidade/estudos-afro-brasileiros-e-indigenas/nucleo-de-estudos-neabi",
+                      "https://www.facebook.com/NEABI-Instituto-Federal-de-Mato-Grosso-do-Sul-113495007043006"]
+          },
+          "M.Z.D":{
+            "header":"Os Malungos de Zumbi e Dandara projetos:",
+            "Objetivos":["IV concurso da beleza negra","V concurso da beleza negra","Divulgações por meio de redes socias de formas de combate ao racismo"],
+            "Footer":"Para mais acesse:",
+            "links":["https://www.instagram.com/malungosdezumbiedandara/",
+                      "https://www.facebook.com/Malungosdezumbiedandara/"]
+          },
+          "Fabio Faria":{
+            "header":"Fabio Faria",
+            "Objetivos":["Professor ministrante da matéria desenvolvimento web2, um dos idealizadores do projeto"],
+            "Footer":"Lattes:",
+            "links":["http://lattes.cnpq.br/6998321135974577"]
+          },
+          "Guilherme Tomaselli":{
+            "header":"Guilherme Tomaselli",
+            "Objetivos":["Professor que auxiliou o projeto em linhas gerais"],
+            "Footer":"Lattes:",
+            "links":["http://lattes.cnpq.br/3060434500091702"]
+          },
+          "Rafael Souza":{
+            "header":"Rafael Souza",
+            "Objetivos":["Professor responsável por auxiliar na tradução do projeto, ministrou com a turma a matéria \"Inglês técnico\""],
+            "Footer":"Lattes:",
+            "links":["http://lattes.cnpq.br/1191274764237349"]
+          },
+          "Êxodo Jaffar":{
+            "header":"Êxodo Jaffar Marques",
+            "Objetivos":["dev do projeto junto ao João Lucas."],
+            "Footer":"GitHub:",
+            "links":["https://github.com/exodojaffar"]
+          },
+          "João Lucas":{
+            "header":"João Lucas Paes",
+            "Objetivos":["dev do projeto junto ao Êxodo Jaffar"],
+            "Footer":"GitHub:",
+            "links":["https://github.com/joao-lucas-paes?tab=overview"]
+          }
+        }
+      },
+      "footer":["em progresso... Ei, que tal clicar nos nomes?","autores: Exodo Jaffar e João Lucas"]
   }
 }

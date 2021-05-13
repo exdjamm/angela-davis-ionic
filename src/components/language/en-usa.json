@@ -8,7 +8,6 @@
                 "We (the authors of the site) chose the author Angela Davis, and on this site we will be showing you the story of Angela and her story as a black author in the United States.",
                 "The site has been development in the subjects:",
                 "Web development 2",
-                "Language portuguese",
                 "English tecnican",
                 "With the help of the sociology teacher: Guilherme Tommaselli",
                 "The sites that the information has been taken about the life and work of Angela Davis:",
@@ -43,5 +42,70 @@
             "Hard critics:",
             "In 1975, Angela was accused of hipocrisy by the russian dissident Aleksandr Solzhenitsyn, he was accussing her of be hipocrit by simpatize with the URSS, while neglecting the conditions of politicans prisoners in communists regimes and by ignore a cards of Tchecans politican prisoners asking by help"
         ]
-    }
+    },
+    "Who":{
+        "Header":"About us",
+        "Body":{
+            "click":"click here to open",
+            "imgs":["./img/Neabi.png","./img/Fabio.jpg","./img/Guilherme.gif","./img/Rafael.gif","./img/Malungos.jpeg","./img/jaffar.jpeg","./img/jl.jpeg"],
+            "describe":[
+              "The Nucleus of Afro-brazilian and indigenous studies (NEABI) has the function of auxiliary the studies, searches and extension actions that promote the reflection about ethnic-racial problems. \nLinked to teaching, search and IFMS campi extension directions, under the  extension pro-rectory guidelines (PROEX), the NEABI too try to contribute to the implementation of legal obligation that include at the scholar curriculum the theme: \"the afro-brazilian and indigenous history and culture\".",
+              "Fabio has graduation on computer engineer - \"Faculdades Associadas de São Paulo\" (2006), he has a specialization by the FACEL in teaching in Information Technology (2018) and specialization by the FIAR in gradation pedagogical in History. At the moment the Faria is a fixed teacher at IFMS. The teacher has experience at the area computation science, with emphasis on analyses and developing/web developing. Nowadays, the docent teach classes in IFMS-Campo Grandes",
+              "The Guilherme has graduation in social sciences by the \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2009). Master in education by \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2009) and doctor in education by \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2018). At the momment, he is sociology docent at \"Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul\"(IFMS). The teacher has experience in education area, with emphasis in education, working mainly in the next themes: Education, ethnic-racials relations and racism. Nowadays, the teacher teach classes in IFMS-Três lagoas",
+              "Literary language doctor and socials interfaces: studies compared by \"UNIOSTE\", with search about the process of critical analyze feminist literary on Brazil territory on romance of Conceição Evaristo, Insubmissas Lágrimas de Mulheres; literature and cultural practices master (scholarship holder FUNDECT) by \" Universidade Federal da Grande Dourados\" (2007), where the master analyzed the construction that the subject be suffers with the effects of immigration on romance, \"Americanah\" (2013), of Nigerian Chimamanda Ngozi Adichie. The master  has graduated in portuguese/english and your respectives literaturies by \"Universidade Estadual de Mato Grosso do Sul\" (2014); he has taught on the program of initialization to docency (PIBID/2014). Campuses IFMS-Campo Grande.",
+              "The \"Malungos de Zumbi e Dandara\" (M.Z.D) is an extension project with the objective to basic formation for the education of ethnic-racials relations on the municipal school \"Olyntho Mancini\", at the schoolar curriculum and \"ethnicmath\"",
+              "He is class 228 student, but does any subjects by the 126 class. Organizer of the project \"Nhande Arandu\" of \"UFMS\"; programmer and web developer besides being creator of the app EadGetTasks for facilitation and organizations of homework of distance learning of IFMS",
+              "He is class 126 student, however, started originally in 228 class and got into for the semester in next him class. João did the elementary school on the institution municipal school \"Professor Múcio Teixeira Jr.\", where got three honors to merit in the OBMEP and so, Lucas has concluded two times the program of scientific initiation on OBMEP. After it, he has entered in IFMS by a selective where studies him high school and technic in informatic"
+        ],
+            "names":["NEABI","Fabio Faria","Guilherme Tomaselli","Rafael Souza","M.Z.D","Êxodo Jaffar","João Lucas"],
+            "more":{
+                "NEABI":{
+                    "header":"Neabi - Objectives:",
+                    "Objetivos":["Promote action in valorization of blacks and indigenous identities",
+                                 "Accomplish discussions about curricular components of courses offered by the IFMS to make the Brazilian national plan of implementation of law 11.645/2008",
+                                 "Act as a proponent and advisory group for matters relating to affirmative policies, in particular the policy of reserving vacancies for indigenous and Afro-Brazilians in the selection processes and public tenders offered"],
+                     "Footer":"for more:",
+                     "links":["https://www.ifms.edu.br/assuntos/extensao/inclusao-e-diversidade/estudos-afro-brasileiros-e-indigenas/nucleo-de-estudos-neabi","https://www.facebook.com/NEABI-Instituto-Federal-de-Mato-Grosso-do-Sul-113495007043006"]
+                  },
+                  "M.Z.D":{
+                    "header":"Os Malungos de Zumbi e Dandara projects:",
+                    "Objetivos":["\"IV concurso da beleza negra\"","\"V concurso da beleza negra\"","Divulgation by social medias of combat racism forms"],
+                    "Footer":"For more:",
+                    "links":["https://www.instagram.com/malungosdezumbiedandara/",
+                              "https://www.facebook.com/Malungosdezumbiedandara/"]
+                  },
+                  "Fabio Faria":{
+                    "header":"Fabio Faria",
+                    "Objetivos":["Teaching teacher of subject web development 2, an of project creators"],
+                    "Footer":"Lattes:",
+                    "links":["http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K8359508Y6"]
+                  },
+                  "Guilherme Tomaselli":{
+                    "header":"Guilherme Tomaselli",
+                    "Objetivos":["Teacher that has assisted in general"],
+                    "Footer":"Lattes:",
+                    "links":["http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4270899P3"]
+                  },
+                  "Rafael Souza":{
+                    "header":"Rafael Souza",
+                    "Objetivos":["Teacher responsible by assist on project translate, taught technical English with the class"],
+                    "Footer":"Lattes:",
+                    "links":["http://lattes.cnpq.br/1191274764237349"]
+                  },
+                  "Êxodo Jaffar":{
+                    "header":"Êxodo Jaffar Marques",
+                    "Objetivos":["project dev together with João Lucas"],
+                    "Footer":"GitHub:",
+                    "links":["https://github.com/exodojaffar"]
+                  },
+                  "João Lucas":{
+                    "header":"João Lucas Paes",
+                    "Objetivos":["project dev together with Êxodo Jaffar"],
+                    "Footer":"GitHub:",
+                    "links":["https://github.com/joao-lucas-paes?tab=overview"]
+                  }
+            }
+        },
+        "footer":["In progress... hey, try click at the names","Owners: Exodo Jaffar e João Lucas"]
+            }
 }

@@ -1,0 +1,94 @@
+.popover-info-sobre {
+    --width: 60vw;
+}
+
+.pop-header{
+    font-weight: bold;
+    text-align: center;
+}
+
+.LinhaZuda {
+    align-content: center;
+    min-height: inherit;
+}
+
+.avatar-card{
+    min-width: max-content !important;
+    min-height: max-content;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.descricao{
+    align-self: center;
+    padding: 0 1.2rem;
+    min-height: max-content;
+}
+
+.itensWe{
+    min-height: 150px;
+}
+.AvatarUs{
+    /*height:90px;
+    width: 90px;*/
+
+    width: max-content;
+    height: max-content;
+
+    display: grid;
+    justify-items: center;
+}
+.AvatarUs ion-img{
+    width: 90px;
+    height: 90px;
+
+    align-self: center;
+}
+
+.NomesAvatar{
+    text-align:center;
+    width: max-content;
+    padding: 0 .6rem;
+}
+.arrowItem{
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    /*top: 45px;*/
+    /*left: 110px;*/
+    /*position: absolute;*/
+}
+.textDescribe{
+    text-align: justify;
+    /*position: absolute;*/
+    /*left:150px;*/
+    /*margin-right: 10px;*/
+}
+
+
+@media (max-width:648px) {
+    .itensWe{
+        min-height: max-content;
+    }
+    .LinhaZuda{
+        flex-direction: column;
+        align-items: center;
+    }
+    .arrowItem{
+        height: 30px;
+        width: 30px;
+        transform: rotate(90deg);
+    }
+
+    .AvatarUs ion-img{
+        width: 120px;
+        height: 120px;
+    }
+}
+@media (max-width:422px) {
+    .textDescribe{
+        max-width: 100%;
+    }
+}
