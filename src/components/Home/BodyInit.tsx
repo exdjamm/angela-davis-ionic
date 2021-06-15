@@ -33,10 +33,10 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
                     <IonCol id="columnText">
 
                         <h2 className="textCommum">
-                            {body.content[12]}
+                            {body.content[11]}
                         </h2>
-                        <IonRow>
-                            <IonCol size='8'>
+                        <IonRow id='firts-paragrafo'>
+                            <IonCol size='8' id="primeiro-texto-aqui">
                             <p>
                                 {body.content[0]}
                             </p>
@@ -45,7 +45,7 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
                             </p>
                             </IonCol>
 
-                            <IonCol size='3'>
+                            <IonCol size='3' id="img-side-text">
                                 <img id="side-img" src="./img/Apresenta.png"/>
                             </IonCol>
                         </IonRow>
@@ -56,7 +56,7 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
 
                         <IonList>
                             {
-                                [body.content[3],body.content[4],body.content[5]].map(
+                                [body.content[3],body.content[4]].map(
                                     (elm, index,key)=>{
                                         return(
                                             <IonItem routerDirection="none" lines="inset" detail={false}>
@@ -68,21 +68,21 @@ const BodyInit : React.FC<params> = ({ lang }) =>{
                             }
 
                             <IonItem className="bgColorGray" routerDirection="none" lines="inset" detail={false}>
-                                {body.content[6]}
+                                {body.content[5]}
                             </IonItem>
 
                         </IonList>
 
                         <IonText className="titleListSub">
-                            {body.content[7]}
+                            {body.content[6]}
                         </IonText>
 
                         <IonRow>
                             {
                                 [
-                                    {one:body.content[8],link:"./img/brasilescola.png",nome:"Brasil Escola"},
-                                    {one:body.content[9],link:"./img/hypeness.png",nome:"Hypeness"},
-                                    {one:body.content[10],link:"./img/geledes.png",nome:"Porta Geledés."}
+                                    {one:body.content[7],link:"./img/brasilescola.png",nome:"Brasil Escola"},
+                                    {one:body.content[8],link:"./img/hypeness.png",nome:"Hypeness"},
+                                    {one:body.content[9],link:"./img/geledes.png",nome:"Porta Geledés."}
                                 ].map(
                                     (elm)=>{
                                         return(
