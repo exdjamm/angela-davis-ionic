@@ -23,17 +23,22 @@ const Home: React.FC = () => {
           <HeaderInit value={language.Why.header}/>
         </IonToolbar>
       </IonHeader>
+
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Angela Davis - Why</IonTitle>
           </IonToolbar>
         </IonHeader>
+
         <BodyWhy lang={language.Why.body}/>
+
       </IonContent>
+
       <IonFooter color={"primary"}>
           <FooterInit values={language.home.footer}/>
       </IonFooter>
+
     </IonPage>
   );
 };
