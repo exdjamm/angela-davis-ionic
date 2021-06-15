@@ -1,0 +1,44 @@
+#paraText {
+    position: absolute;
+    left:-75px;
+    transform: skew(-10deg);
+    font-size: large;
+    max-width: 55%;
+}
+#contraText{
+    padding: 10px;
+    margin-left: 7.5%;
+    text-align: justify;
+    max-width: 85%;
+    transform: skew(10deg);
+}
+#paraImg {
+    position: absolute;
+    right:-75px;
+    width: 600px;
+    transform: skew(-10deg);
+    font-size: large;
+    max-width: 55%;
+    height: 685.6px;
+}
+#contraImg{
+    position: absolute;
+    left: -105px;
+    width: 720.89px;
+    height: 685.6px;
+    margin-left: 7.5%;
+    text-align: justify;
+    transform: skew(10deg);
+}
+#image{
+    width: 720.89px;
+    height: 100%;
+}
+@keyframes bodyAnima {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

@@ -22,7 +22,7 @@
         },
         "footer": ["In progress...","Owners: Exodo Jaffar e João Lucas"]
     },
-    "menu":["Start","Essays","Angela Davis","Who are we?","Contact"],
+    "menu":["Start","Why study Angela?","Angela Davis","Who are we?","Contact"],
     "headerMenu":"navigate through the menu",
     "AD":{
         "header":"Angela Davis",
@@ -54,7 +54,7 @@
               "Fabio has graduation on computer engineer - \"Faculdades Associadas de São Paulo\" (2006), he has a specialization by the FACEL in teaching in Information Technology (2018) and specialization by the FIAR in gradation pedagogical in History. At the moment the Faria is a fixed teacher at IFMS. The teacher has experience at the area computation science, with emphasis on analyses and developing/web developing. Nowadays, the docent teach classes in IFMS-Campo Grandes",
               "The Guilherme has graduation in social sciences by the \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2009). Master in education by \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2009) and doctor in education by \"Universidade Estadual Paulista Júlio de Mesquita Filho\" (2018). At the momment, he is sociology docent at \"Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul\"(IFMS). The teacher has experience in education area, with emphasis in education, working mainly in the next themes: Education, ethnic-racials relations and racism. Nowadays, the teacher teach classes in IFMS-Três lagoas",
               "Literary language doctor and socials interfaces: studies compared by \"UNIOSTE\", with search about the process of critical analyze feminist literary on Brazil territory on romance of Conceição Evaristo, Insubmissas Lágrimas de Mulheres; literature and cultural practices master (scholarship holder FUNDECT) by \" Universidade Federal da Grande Dourados\" (2007), where the master analyzed the construction that the subject be suffers with the effects of immigration on romance, \"Americanah\" (2013), of Nigerian Chimamanda Ngozi Adichie. The master  has graduated in portuguese/english and your respectives literaturies by \"Universidade Estadual de Mato Grosso do Sul\" (2014); he has taught on the program of initialization to docency (PIBID/2014). Campuses IFMS-Campo Grande.",
-              "The \"Malungos de Zumbi e Dandara\" (M.Z.D) is an extension project with the objective to basic formation for the education of ethnic-racials relations on the municipal school \"Olyntho Mancini\", at the schoolar curriculum and \"ethnicmath\"",
+              "the trajectory that result in extesion project \"Malungos de Zumbi e Dandara\" is marked by the curriculum of eurocentrism confrotation , by the curriculum black people construct, in that the culture afro-brazilian and African and your importance get primordial in educational process. The name \"Malungos de ZUmbi e Dandara\" is self explanatory. The meaning of \"Malungos\" come from the enslaved black people history in Brazil. The word the these people has used to indentify others, with a meaning nearest to \"companier\".",
               "He is class 228 student, but does any subjects by the 126 class. Organizer of the project \"Nhande Arandu\" of \"UFMS\"; programmer and web developer besides being creator of the app EadGetTasks for facilitation and organizations of homework of distance learning of IFMS",
               "He is class 126 student, however, started originally in 228 class and got into for the semester in next him class. João did the elementary school on the institution municipal school \"Professor Múcio Teixeira Jr.\", where got three honors to merit in the OBMEP and so, Lucas has concluded two times the program of scientific initiation on OBMEP. After it, he has entered in IFMS by a selective where studies him high school and technic in informatic"
         ],
@@ -108,5 +108,9 @@
             }
         },
         "footer":["In progress... hey, try click at the names","Owners: Exodo Jaffar e João Lucas"]
-            }
+            },
+    "Why":{
+        "header":"Why should I study Angela?",
+        "body":["The Why:",""]
+        }
 }

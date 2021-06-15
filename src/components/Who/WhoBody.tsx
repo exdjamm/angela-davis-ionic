@@ -77,32 +77,33 @@ const WhoBody : React.FC<params> = ({ lang }) =>{
         //vai criar o conteudo do popOver
         return (
             <>
-                <IonHeader>
+                <IonHeader className="pop-header">
                      {content.header}
                     </IonHeader>
                 <IonContent>
-                    <br/>
+                    <ul>
                     {content.content.map((elm)=>{
                         return (
-                            <>
-                            {"- "+ elm}
-                            <br/><br/>
-                            </>
+                            <li>
+                            {elm}
+                            
+                            </li>
                             );
                     })}
+                    </ul>
                     </IonContent>
                 <IonFooter>
                     {content.footer}
                     <br/>
                     {content.button(content.links)}
                 </IonFooter>
-                </>
+            </>
         )
     }
 
 
     return(
-        <IonContent >
+        <IonContent id="conteudo-sobrenos" >
             {/*Conteudo*/}
             <div id="content">
                 <IonGrid>
@@ -110,19 +111,25 @@ const WhoBody : React.FC<params> = ({ lang }) =>{
                         return(
                             <>
                                 <IonList className="itensWe">
-                                    <IonRow>
+                                    <IonRow className="LinhaZuda">
                                         {/* imagem */}
-                                        <IonAvatar className="AvatarUs">
-                                            <IonImg src={body.imgs[index]}></IonImg>
-                                            <IonCard className="NomesAvatar" color="danger" button={true} onClick={(e:any)=>SetTrue(e,body.names[index])}>{body.names[index]}</IonCard>
-                                        </IonAvatar>
-                                        <IonIcon icon={arrowForwardOutline} className="arrowItem"/>
+                                        <IonCol size="1.5" className="avatar-card">
+                                            <IonAvatar className="AvatarUs">
+                                                <IonImg src={body.imgs[index]}></IonImg>
+                                                <IonCard className="NomesAvatar" color="danger" button={true} onClick={(e:any)=>SetTrue(e,body.names[index])}>{body.names[index]}</IonCard>
+                                            </IonAvatar>
+                                        </IonCol>
+
+                                        <IonIcon size="2" icon={arrowForwardOutline} className="arrowItem"/>
+
                                         {/* texto */}
-                                        <div className="textDescribe">
-                                            <IonText>
-                                                {elm}
-                                            </IonText>
-                                        </div>
+                                        <IonCol className="descricao">
+                                            <div className="textDescribe">
+                                                <IonText>
+                                                    {elm}
+                                                </IonText>
+                                            </div>
+                                        </IonCol>
                                     </IonRow>
                                 </IonList>
                                 <br/>
@@ -131,7 +138,7 @@ const WhoBody : React.FC<params> = ({ lang }) =>{
                     })}
                 </IonGrid>
             </div>
-            <IonPopover isOpen={pop.open} event={pop.e} onDidDismiss={()=>setPop({open:false,e:undefined})}>
+            <IonPopover cssClass="popover-info-sobre" isOpen={pop.open} event={pop.e} onDidDismiss={()=>setPop({open:false,e:undefined})}>
                 {createrPop()}
             </IonPopover>
         </IonContent>
