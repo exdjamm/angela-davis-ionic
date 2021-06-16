@@ -1,6 +1,6 @@
-import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListHeader, IonCard, } from "@ionic/react";
-import React from "react";
-import HeaderWhy from "./HeaderWhy";
+import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListHeader, IonCard, IonTitle, IonToast, IonIcon, IonButton, } from "@ionic/react";
+import { checkmarkOutline } from "ionicons/icons";
+import React, { useState } from "react";
 
 import "./BodyWhy.css";
 
@@ -17,31 +17,37 @@ interface bodyI{
 
 const BodyWhy : React.FC<params> = ({ lang }) =>{
 
-    const body:bodyI = lang
-
+    const body:bodyI = lang;
     return(
         <IonContent >
-            {/*Apresentação*/}
-            <HeaderWhy
-                header_title={body[0]}
-                className='' />
-
-            {/*Conteudo*/}
             <div id="whyContent">
-                <IonCard id="paraText">
-                    <div id="contraText">
-                        <IonText color="dark">
-                           {body[1]}
-                        </IonText>
+                    <div id="imgWhy">
+                        <img id="imageWhy" src="./img/Why.jfif"/>
                     </div>
-                </IonCard>
-                <div >
-                    <IonCard id="paraImg">
-                        <div id="contraImg">
-                            <img id="image" src="./img/Why.jfif"/>
+                    <div id="dLine">
+                        <IonTitle id="whyTitle">
+                            {body.title}
+                            </IonTitle>
+                        <IonCard id="IonCardRight">
+                            {body.text.map((elm:any) => {
+                                return (
+                                    <div className="paragraph">
+                                        <IonText className="whyText" color="dark">
+                                            {elm}
+                                        </IonText>
+                                        <br/>
+                                    </div >
+                                    )
+                            })}
+                        </IonCard>
                         </div>
-                    </IonCard>
-                </div>
+                    <div id="toast">
+                        {/* menssagem é o body.bottom e o botão é o body.toast */}
+                        <IonText>
+                            {body.bottom}
+                            </IonText>
+                        <IonIcon icon={checkmarkOutline}/>
+                        </div>
             </div>
 
         </IonContent>

@@ -1,44 +1,130 @@
-#paraText {
-    position: absolute;
-    left:-75px;
-    transform: skew(-10deg);
-    font-size: large;
-    max-width: 55%;
+#whyContent{
+    animation: bodyAnima 0.7s;
+    margin-top: 50px;
+    display: flex;
+    max-height: 85vh;
 }
-#contraText{
-    padding: 10px;
-    margin-left: 7.5%;
+#IonCardRight{
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    max-width: 45vw;
+}
+#toast{
+    display: none;
+}
+#whyTitle{
+    font-size: xx-large;
+}
+.whyText{
+    font-size: x-large;
+    line-height: 22px;
+}
+.paragraph{
     text-align: justify;
-    max-width: 85%;
-    transform: skew(10deg);
+    text-indent: 1.25cm;
+    margin-right: 10px;
 }
-#paraImg {
-    position: absolute;
-    right:-75px;
-    width: 600px;
-    transform: skew(-10deg);
-    font-size: large;
-    max-width: 55%;
-    height: 685.6px;
+#imgWhy{
+    margin-top: 40px;
+    border-radius: 10px ;
+    margin-left: auto;
+    margin-right: auto;
 }
-#contraImg{
-    position: absolute;
-    left: -105px;
-    width: 720.89px;
-    height: 685.6px;
-    margin-left: 7.5%;
-    text-align: justify;
-    transform: skew(10deg);
+#imageWhy{
+    height: calc(100vh - 18vw);
+    width: 45vw;
 }
-#image{
-    width: 720.89px;
-    height: 100%;
+@media (max-width:1867px) {
+    #toast{
+        display: flex;
+        position: fixed;
+        align-self: center;
+        top: calc(100vh - 120px);
+        background-color: #e4495e;
+        padding: 20px;
+        border-radius: 7px;
+        left:-5px;
+        animation: left-Right 15s;
+        opacity: 0;
+        font-size: larger;
+    }
+    #imgWhy{
+        height: calc(100vh - 90px);
+    }
+    #IonCardRight{
+        height: calc(100vh - 18vw);
+        max-height: calc(100vh - 18vw);
+    }
+}
+@media (max-width:900px) {
+    #imageWhy{
+        height: 75vh;
+    }
+}
+@media (max-width:750px) {
+    #toast{
+        font-size: small;
+    }
+}
+@media (max-width:760px) {
+    #imageWhy{
+        height: 550px;
+    }
+}
+@media (max-width:525px) {
+    #col1{
+        display: block;
+    }
+    #whyTitle{
+        font-size: x-large;
+    }
+    .whyText{
+        font-size: larger;
+        line-height: 22px;
+    }
+}
+@media (max-width:500px) {
+    #imageWhy{
+        display: none;
+    }
+    #dLine{
+        position: absolute;
+        align-self: center;
+        height: 100%;
+        width: 100%;
+    }
+    #IonCardRight{
+        max-width: 100%;
+        max-height: 90%;
+        width: 96%;
+    }
+}
+
+
+@keyframes left-Right {
+    0%{
+        display: flex;
+        left:-381px;
+    }
+    10%{
+        left:-5px;
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 @keyframes bodyAnima {
     from{
         opacity: 0;
+        margin-top: 80px;
     }
     to{
+        margin-top: 50px;
         opacity: 1;
     }
 }
