@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import Home from './pages/Home';
 import Who from './pages/Who';
 import AngDav from './pages/AngDav';
+import Why from './pages/Why';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -43,6 +44,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/:lang/We" exact={true}>
               <Who/>
+            </Route>
+            <Route path="/:lang/Why">
+              <Why/>
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>

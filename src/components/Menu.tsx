@@ -19,7 +19,7 @@ const Menu: React.FC = () => {
   const lang = location.pathname.split('/')[1];
   console.log(lang)
   var language = lang === "pt-br" ? portuguese : english;
-  
+
   const appPages: AppPage[] = [
   {
     name:"home",
@@ -29,9 +29,9 @@ const Menu: React.FC = () => {
     mdIcon: homeSharp
   },
   {
-    name:"doesn't exist",
+    name:"why",
     title: language.menu[1],
-    url: undefined,
+    url: '/'+lang+'/why',
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp
   },

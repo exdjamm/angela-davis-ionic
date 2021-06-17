@@ -20,7 +20,7 @@
     },
     "footer": ["em progresso...", "autores: Exodo Jaffar e João Lucas"]
   },
-  "menu": ["início", "Redações", "Angela Davis", "Quem somos?", "Contato"],
+  "menu": ["início", "Por quê estudar Angela?", "Angela Davis", "Quem somos?", "Contato"],
   "headerMenu": "Navegue pelo site",
   "AD": {
     "header": "Angela Davis",
@@ -51,7 +51,7 @@
           "Possui graduação em Engenharia da Computação - Faculdades Associadas de São Paulo (2006), especialização pela FACEL em Docência em Ciência e Tecnologia da Informação (2018) e especialização pela FIAR em Licenciatura Pedagógica em História. Atualmente é professor efetivo do IFMS. Tem experiência na área de Ciência da Computação, com ênfase em Análise e Desenvolvimento/Desenvolvimento Web. Atualmente do Campus IFMS-Campo Grande",
           "Possui graduação em Ciências Sociais pela Universidade Estadual Paulista Júlio de Mesquita Filho (2009), mestrado em Educação pela Universidade Estadual Paulista Júlio de Mesquita Filho (2012) e doutorado em Educação pela Universidade Estadual Paulista Júlio de Mesquita Filho (2018). Atualmente é docente de sociologia do Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul. Tem experiência na área de Educação, com ênfase em Educação, atuando principalmente nos seguintes temas: Educação, Relações étnico-raciais,Racismo. Atualmente do Campus IFMS-três Lagoas.",
           "Doutorando em Letras/Linguagem literária e interfaces sociais: estudos comparados pela UNIOSTE, com a pesquisa sobre o processo de análise crítica literária feminista em território nacional no romance de Conceição Evaristo, Insubmissas Lágrimas de mulheres; mestre em Letras/Literatura e práticas culturais (Bolsista FUNDECT) pela Universidade Federal da Grande Dourados (2017), onde analisou a construção do sujeito que sofre com os efeitos da imigração no romance, Americanah (2013), da nigeriana Chimamanda Ngozi Adichie. Graduou-se em Letras Português/Inglês e suas respectivas Literaturas pela Universidade Estadual de Mato Grosso do Sul (2014); Lecionou no programa de iniciação à docência (PIBID/2014). Campus IFMS-Campo Grande.",
-          "Os Malungos de Zumbi e Dandara (M.Z.D) é um projeto de extensão voltado à formação básica para a educação das relações étnico-raciais na Escola municipal Olyntho Mancini, a partir do currículo escolar e da etnomatemática.",
+          "A trajetória que culmina no projeto de extensão “Malungos de Zumbi e Dandara” é marcada pelo enfrentamento ao currículo de branqueamento/europeizado, pela construção de um currículo do  povo negro, em que a Cultura Afro-Brasileira e Africana e sua importância para os brasileiros se torne primordial no processo educacional. O nome “Malungos de Zumbi e Dandara” é por si mesmo representativo do que se pretende alcançar. O significado de Malungos provém da própria história dos negros escravizados no Brasil. Era o termo que os negros escravizados encontraram para se identificar, com um significado próximo ao que podemos traduzir como “companheiro”",
           "Aluno da turma 228, mas participa de algumas matérias pela 126 por meio da possibilidade dada pela instituição. Organizador do projeto Nhande Arandu da UFMS para a SNCT 2020; programador e desenvolvedor web além de criador do aplicativo EadGetTasks para a facilitação e organizações de tarefas do ambiente online do ifms.",
           "Aluno da turma 126, no entanto, começou originalmente na turma 228 e conseguiu passar para o semestre a frente de sua turma. Fez o ensino fundamental na instituição \"Escola Municipal Professor Múcio Teixeira Jr.\", onde conseguiu três honrarias ao mérito na OBMEP e, assim, concluindo duas vezes o programa de iniciação científica da OBMEP. Após isso passou por uma seletiva do IFMS onde cursa o ensino médio integrado com informática."
         ],
@@ -106,5 +106,19 @@
         }
       },
       "footer":["em progresso... Ei, que tal clicar nos nomes?","autores: Exodo Jaffar e João Lucas"]
+  },
+  "Why":{
+    "header":"Por quê estudar Angela?",
+    "body":{
+      "bigTitle":"Por quê estudar Angela?",
+      "title":"O Porquê:",
+      "text":[
+        "A constituição federal de 1988, documento jurídico mais importante do país, prevê em seu artigo 6°, o direito ao acesso à cultura como inerente a todo cidadão brasileiro. Conquanto, tal prerrogativa não tem se reverberado com ênfase na prática quando se observa o acesso à cultura dos povos afros, dificultando, deste modo, a universalização dese direito social tão importante. Diante dessa perspectiva, faz-se imperiosa a análise dos fatores que favorecem esse quadro.",
+        "Em uma primeira análise, deve-se ressaltar a ausência de medidas governamentais para combater a falta de acesso a essa cultura. Nesse sentido, estudo de personalidades negras como Angela Davis, que no que lhe concerne é um importante personagem na construção da atual imagem ideal da sociedade que buscamos para todas as pessoas e, principalmente, para a cultura afro ela representa muito, visto que os principais movimentos americanos como os Panteras Negras. Essa conjuntura, segundo as ideias do filósofo contratualista John Locke, configura-se como uma violação do “contrato social”, já que o Estado não cumpre sua função de garantir que os cidadãos desfrutem de direitos indispensáveis, como o eixo social já citado, o que infelizmente é evidente no país.",
+        "O projeto desenvolvido na disciplina de Desenvolvimento Web 2 vem para aumentar a visibilidade e trazer aos alunos e a sociedade o conhecimento de autores afros que talvez nunca tivessem ouvido falar durante sua vida. Vingando junto o motivo de seu estudo: Angela Davis sendo um grande militante da igualdade racial, de gênero e social, nascida em 1944 no Alabama, o estado mais racista do Estado Unidos. Angela tornou-se militante dos movimentos negros e feministas que chacoalhavam a América, primeiro como filiada da SNCC e depois do movimentos dos Panteira Negra e Black Power.",
+        "É importante estudar Angela Davis pois ela apresenta uma perspectiva nova para quem a estuda; sendo ela uma mulher afro-americana, ela mostra as pessoas negras, as mulheres e para todos que se pode lutar pelos seus direitos e pelo o que acredita, que podem escrever, podem se manifestar; mostrando a imagem para se identificar de quem pode. Alem de nos mostrar os seus textos e posições com as experiencias de uma mulher negra na america nascida no estado mais racista dos EUA, nos enriquecendo com novas perspectivas e transformando as nossas formas de pensamento e como vemos a sociedade em que vivemos."],
+      "bottom":"é possivel usar o scroll no texto para ver mais",
+      "toast":"clique aqui para fechar"
+      }
   }
 }
