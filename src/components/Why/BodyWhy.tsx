@@ -20,7 +20,13 @@ const BodyWhy : React.FC<params> = ({ lang }) =>{
     const body:bodyI = lang;
     return(
         <IonContent >
+            <div id="whyMainTitle">
+              {body.bigTitle}
+            </div>
+
             <div id="whyContent">
+                
+
                     <div id="imgWhy">
                         <img id="imageWhy" src="./img/Why.jfif"/>
                     </div>

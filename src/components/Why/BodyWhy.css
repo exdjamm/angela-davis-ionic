@@ -4,11 +4,25 @@
     display: flex;
     max-height: 85vh;
 }
+
+#whyMainTitle{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#whyMainTitle {
+    white-space: normal;
+}
+
+
 #IonCardRight{
     padding: 5px;
     box-sizing: border-box;
     overflow-y: scroll;
     max-width: 45vw;
+    height: 55.25vw;
 }
 #toast{
     display: none;
@@ -17,7 +31,7 @@
     font-size: xx-large;
 }
 .whyText{
-    font-size: x-large;
+    font-size: large;
     line-height: 22px;
 }
 .paragraph{
@@ -32,10 +46,24 @@
     margin-right: auto;
 }
 #imageWhy{
-    height: calc(100vh - 18vw);
+    /*height: calc(100vh - 18vw);*/
     width: 45vw;
 }
-@media (max-width:1867px) {
+
+@media (max-width: 740px) {
+    #whyContent {
+        flex-direction: column;
+    }
+    #dLine, #IonCardRight, #imgWhy, #imageWhy{
+        width: 95vw;
+        max-width: none;
+    }
+    #IonCardRight{
+        height: 71vh;
+    }
+}
+
+/*@media (max-width:1867px) {
     #toast{
         display: flex;
         position: fixed;
@@ -56,8 +84,8 @@
         height: calc(100vh - 18vw);
         max-height: calc(100vh - 18vw);
     }
-}
-@media (max-width:900px) {
+}*/
+/*@media (max-width:900px) {
     #imageWhy{
         height: 75vh;
     }
@@ -83,8 +111,8 @@
         font-size: larger;
         line-height: 22px;
     }
-}
-@media (max-width:500px) {
+}*/
+/*@media (max-width:500px) {
     #imageWhy{
         display: none;
     }
@@ -100,7 +128,7 @@
         width: 96%;
     }
 }
-
+*/
 
 @keyframes left-Right {
     0%{
