@@ -32,7 +32,7 @@ const Home: React.FC = () => {
         <BodyInit lang={language.home.body}/>
       </IonContent>
       <IonFooter color={"primary"}>
-          <FooterInit values={language.home.footer}/>
+          <FooterInit />
       </IonFooter>
     </IonPage>
   );

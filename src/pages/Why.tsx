@@ -1,5 +1,5 @@
 import { IonContent, IonFooter, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './Home.css';
+import './Why.css';
 
 //#region Imports components
 import HeaderInit from "../components/HeaderInit";
@@ -12,7 +12,7 @@ import {default as english} from '../components/language/en-usa.json';
 
 
 
-const Home: React.FC = () => {
+const Why: React.FC = () => {
   const {lang} = useParams< {lang:string;} >();
   var language = lang === "pt-br" ? portuguese : english;
 
@@ -36,11 +36,11 @@ const Home: React.FC = () => {
       </IonContent>
 
       <IonFooter color={"primary"}>
-          <FooterInit values={language.home.footer}/>
+          <FooterInit/>
       </IonFooter>
 
     </IonPage>
   );
 };
 
-export default Home;
+export default Why;

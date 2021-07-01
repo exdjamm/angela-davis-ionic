@@ -32,7 +32,7 @@ const Who: React.FC = () => {
         <WhoBody lang={language.Who.Body}/>
       </IonContent>
       <IonFooter color={"primary"}>
-          <FooterInit values={language.Who.footer}/>
+          <FooterInit />
       </IonFooter>
     </IonPage>
   );

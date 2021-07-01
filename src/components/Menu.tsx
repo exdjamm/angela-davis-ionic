@@ -1,6 +1,6 @@
 import {  IonContent,  IonIcon,  IonItem,  IonLabel,  IonList,  IonListHeader,  IonMenu,  IonMenuToggle} from '@ionic/react';
 import { useLocation } from 'react-router-dom';
-import { femaleOutline, femaleSharp, homeOutline, homeSharp,  paperPlaneOutline, paperPlaneSharp, peopleOutline, peopleSharp } from 'ionicons/icons';
+import { bookOutline, bookSharp, femaleOutline, femaleSharp, homeOutline, homeSharp,  paperPlaneOutline, paperPlaneSharp, peopleOutline, peopleSharp } from 'ionicons/icons';
 import './Menu.css';
 import {default as portuguese} from '../components/language/pt-br.json';
 import {default as english} from '../components/language/en-usa.json';
@@ -29,11 +29,11 @@ const Menu: React.FC = () => {
     mdIcon: homeSharp
   },
   {
-    name:"why",
+    name:"ref",
     title: language.menu[1],
-    url: '/'+lang+'/why',
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp
+    url: '/'+lang+'/ref',
+    iosIcon: bookOutline,
+    mdIcon: bookSharp
   },
   {
     name:"AngelaDavis",
@@ -50,7 +50,7 @@ const Menu: React.FC = () => {
     mdIcon: peopleSharp
   },
   {
-    name:"contact",
+    name:"Contact",
     title: language.menu[4],
     url: '/'+lang+'/Contact',
     iosIcon: paperPlaneOutline,
