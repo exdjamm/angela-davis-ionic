@@ -31,22 +31,21 @@ const HeaderInit: React.FC<params> = ({value}) =>{
                     <IonIcon icon={globeOutline}></IonIcon>
                 </IonButton>
 
-                <IonPopover 
-                isOpen={lang.showPop} 
-                event={lang.event} 
+                <IonPopover
+                isOpen={lang.showPop}
+                event={lang.event}
                 onDidDismiss={()=>setLang({showPop:false,event:undefined})}>
 
                     {
                         languagers.map(
                             (selectLanguageProps)=>{
                                 return(
-                                    <IonCard 
-                                    button={true} 
-                                    href={'/'+selectLanguageProps.name+location}
-                                   >
+                                    <IonCard
+                                    button={true}
+                                    href={'/'+selectLanguageProps.name+location}>
                                         <IonThumbnail id="img">
                                             <IonImg src={selectLanguageProps.src}></IonImg>
-                                        </IonThumbnail> 
+                                        </IonThumbnail>
 
                                     {selectLanguageProps.description}
 

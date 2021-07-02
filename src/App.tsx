@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Who from './pages/Who';
 import AngDav from './pages/AngDav';
 import Why from './pages/Why';
+import Ctt from './pages/Contact';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -36,7 +37,7 @@ const App: React.FC = () => {
             <Route path="/" exact={true}>
               <Redirect to="/pt-br/home"/>
             </Route>
-            <Route path="/:lang/home" exact={true}>
+            <Route path="/:lang/ref">
               <Home/>
             </Route>
             <Route path="/:lang/AngelaDavis" exact={true}>
@@ -45,8 +46,11 @@ const App: React.FC = () => {
             <Route path="/:lang/We" exact={true}>
               <Who/>
             </Route>
-            <Route path="/:lang/Why">
+            <Route path="/:lang/home" exact={true}>
               <Why/>
+            </Route>
+            <Route path="/:lang/Contact" exact={true}>
+              <Ctt/>
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>

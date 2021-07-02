@@ -1,14 +1,15 @@
-import { IonIcon } from "@ionic/react";
-import { warningOutline } from "ionicons/icons";
+import { IonButton, IonIcon } from "@ionic/react";
+import { logoGithub } from "ionicons/icons";
 import "./FooterInit.css";
-interface footer{values:string[]}
-const FooterInit : React.FC<footer> = ({values}) =>{
+
+
+
+const FooterInit : React.FC = () =>{
     return(
-        <><IonIcon icon={warningOutline}></IonIcon>
-        {values[0]}
-        <br/> 
-       {values[1]}
-        </>
+        <IonButton href="https://www.github.com/exodojaffar/angela-davis-ionic/" target="_blank">
+            <IonIcon icon={logoGithub}>
+                </IonIcon>
+        </IonButton>
     )
 }
 

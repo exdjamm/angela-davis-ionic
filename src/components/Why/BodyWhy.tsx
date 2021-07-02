@@ -1,6 +1,6 @@
-import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonListHeader, IonCard, IonTitle, IonToast, IonIcon, IonButton, } from "@ionic/react";
+import { IonContent, IonText, IonCard, IonTitle, IonIcon,  } from "@ionic/react";
 import { checkmarkOutline } from "ionicons/icons";
-import React, { useState } from "react";
+import React from "react";
 
 import "./BodyWhy.css";
 
@@ -25,7 +25,6 @@ const BodyWhy : React.FC<params> = ({ lang }) =>{
             </div>
 
             <div id="whyContent">
-                
 
                     <div id="imgWhy">
                         <img id="imageWhy" src="./img/Why.jfif"/>
@@ -55,7 +54,6 @@ const BodyWhy : React.FC<params> = ({ lang }) =>{
                         <IonIcon icon={checkmarkOutline}/>
                         </div>
             </div>
-
         </IonContent>
     )
 }

@@ -1,4 +1,4 @@
-import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonItem, IonCard, IonGrid, IonAvatar, IonIcon, IonTitle, IonButton, IonPopover, IonHeader, IonFooter, } from "@ionic/react";
+import { IonContent, IonImg, IonCol, IonRow, IonText, IonList, IonCard, IonGrid, IonAvatar, IonIcon, IonButton, IonPopover, IonHeader, IonFooter, } from "@ionic/react";
 import { arrowForwardOutline, logoFacebook, logoGithub, logoInstagram } from "ionicons/icons";
 import React, { useState } from "react";
 
@@ -86,7 +86,6 @@ const WhoBody : React.FC<params> = ({ lang }) =>{
                         return (
                             <li>
                             {elm}
-                            
                             </li>
                             );
                     })}

@@ -1,0 +1,34 @@
+.clicked{
+    animation: selecting 0.2s;
+    border-bottom: 5px solid #e4495e;
+}
+#cttContent{
+    animation: bodyAnima 0.7s;
+    margin-top: 50px;
+    max-height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+.line_form{
+    margin-bottom: 25px;
+    margin-left: 10%;
+    width: 80%;
+    display: block;
+}
+#send{
+    margin-left: 40%;
+    width: 20%;
+}
+#alerting{
+    color:rgb(255, 0, 128);
+    margin-left: 10%;
+    max-width: 80%;
+}
+@keyframes selecting {
+    0%{
+        border-bottom: 0px solid #e4495e;
+    }
+    100%{
+        border-bottom: 5px solid #e4495e;
+    }
+}

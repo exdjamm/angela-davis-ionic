@@ -1,6 +1,6 @@
 {
   "home": {
-    "header": "início",
+    "header": "Sobre",
     "body": {
         "header_title":"Angela Davis, uma breve biografia de uma grande Mulher", 
         "content":[
@@ -20,7 +20,7 @@
     },
     "footer": ["em progresso...", "autores: Exodo Jaffar e João Lucas"]
   },
-  "menu": ["início", "Por quê estudar Angela?", "Angela Davis", "Quem somos?", "Contato"],
+  "menu": ["Início", "Sobre", "Angela Davis", "Quem somos?", "Contato"],
   "headerMenu": "Navegue pelo site",
   "AD": {
     "header": "Angela Davis",
@@ -120,5 +120,17 @@
       "bottom":"é possivel usar o scroll no texto para ver mais",
       "toast":"clique aqui para fechar"
       }
+  },
+  "ctt":{
+    "header":"Contato",
+    "body":{
+      "alert":"Ao enviar seu email e nome, você conscientemente aceita: ser chamado pelo nome digitado no campo, receber emails sobre novidades e em enviar seu feedback",
+      "title":"Nos Contate e/ou disponibilize seu contato:",
+      "placeholders":{
+        "name":"digite seu nome",
+        "email":"digite seu email",
+        "msg":"digite seu texto *opcional"
+      }
+    }
   }
 }
