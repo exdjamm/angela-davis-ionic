@@ -24,6 +24,22 @@
     margin-left: 10%;
     max-width: 80%;
 }
+.noneDis{
+    display: none;
+}
+.alertInput{
+    display: flex;
+    position: fixed;
+    align-self: center;
+    top: calc(100vh - 120px);
+    background-color: #e4495e;
+    padding: 20px;
+    border-radius: 7px;
+    left:-5px;
+    animation: left-Right 10s;
+    opacity: 0;
+    font-size: larger;
+}
 @keyframes selecting {
     0%{
         border-bottom: 0px solid #e4495e;
