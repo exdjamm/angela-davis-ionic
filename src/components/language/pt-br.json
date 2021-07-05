@@ -24,7 +24,13 @@
   "headerMenu": "Navegue pelo site",
   "AD": {
     "header": "Angela Davis",
-    "body": ["A vida e luta de Angela Davis:", "Quem é?",
+    "body": {
+      "aviso":{
+        "title":"Aviso",
+        "text":"As informações foram passadas com a maior imparcialidade possível, este site não se trata de forma alguma de um site ideológico e nem nada do tipo, serve apenas para ensino da história da escritora, desde já agradecemos a compreensão!"
+      },
+      "text":[
+      "A vida e luta de Angela Davis:", "Quem é?",
       "Angela Davis é uma filosofa, professora, escritora e ativista estadunidense. Desde 1960, Davis luta pelos direitos das pessoas negras e das mulheres.",
       "Quais ideias/ideologias movem Angela? ",
       "Angela teve contato com o progressismo pela primeira vez em 1959 com um pastor branco. Em 1960 teve contato com a escola (ideológica) de Frankfurt. Ela então acredita que o marxismo é a melhor maneira de organização politica, pois segundo ela ele \"se preocupa com a distribuição igualitária de renda\".\nPortanto, ela se posiciona como marxista, ativista pelos direitos da pessoa negra e feminista.",
@@ -39,8 +45,8 @@
       "O julgamento:",
       "Pela falta de provas, em Junho de 1972, Angela Yvonne Davis foi declarada inocente por falta de provas.",
       "Duras críticas",
-      "Em 1975, Angela sofreu graves críticas pelo dissidente russo Aleksandr Solzhenitsyn, ele acusava ela de ser hipócrita por simpatizar com a URSS, ao negligenciar as condições dos prisioneiros políticos em regimes comunistas e por ignorar uma carta de presos políticos tchecos perseguidos pelo estado lhe pedindo ajuda."
-    ]
+      "Em 1975, Angela sofreu graves críticas pelo dissidente russo Aleksandr Solzhenitsyn, ele acusava ela de ser hipócrita por simpatizar com a URSS, ao negligenciar as condições dos prisioneiros políticos em regimes comunistas e por ignorar uma carta de presos políticos tchecos perseguidos pelo estado lhe pedindo ajuda."]
+    }
   },
   "Who":{
       "Header":"Sobre nós",
@@ -130,7 +136,8 @@
         "name":"digite seu nome",
         "email":"digite seu email",
         "msg":"digite seu texto *opcional"
-      }
+      },
+      "bottom":"É NECESSÁRIO PREENCHER TODAS AS ENTRADAS OBRIGATÓRIAS"
     }
   }
 }

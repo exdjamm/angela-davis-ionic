@@ -1,5 +1,5 @@
-import { IonButton, IonCard, IonContent, IonIcon, IonInput, IonTextarea, } from "@ionic/react";
-import { sendOutline } from "ionicons/icons";
+import { IonButton, IonCard, IonContent, IonIcon, IonInput, IonTextarea, IonText, } from "@ionic/react";
+import { closeCircleOutline, sendOutline, textOutline } from "ionicons/icons";
 import React, { useState } from "react";
 
 import "./BodyCtt.css";
@@ -8,11 +8,13 @@ interface params{
     lang:any,
 }
 
+let veri = true;
 
 const BodyCtt : React.FC<params> = ({ lang }) =>{
     const [name, setName] = useState<string>("");
     const [email, setEmail] = useState<string>("");
     const [msg, setMsg] = useState<string>("");
+    const [alert, setAlert] = useState<string>("noneDis"); //vai ser a classe do aviso
 
     const body = lang;
     const classN = "inputForm"
@@ -57,7 +59,14 @@ const BodyCtt : React.FC<params> = ({ lang }) =>{
                 })
             })
         }else{
-            alert();
+            if(veri){
+                setAlert("alertInput");
+                veri = false;
+                setTimeout(()=>{
+                    setAlert("noneDis");
+                    veri = true;
+                }, 10000);
+        }
         }
     }
     //#endregion
@@ -84,6 +93,12 @@ const BodyCtt : React.FC<params> = ({ lang }) =>{
                     <IonIcon icon={sendOutline}/>
                     </IonButton>
             </div>
+            <div className={alert}>
+                        <IonText>
+                            {body.bottom}
+                            </IonText>
+                        <IonIcon icon={closeCircleOutline}/>
+                        </div>
         </IonContent>
     )
 }

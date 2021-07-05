@@ -24,7 +24,13 @@
     "headerMenu":"navigate through the menu",
     "AD":{
         "header":"Angela Davis",
-        "body":["The life and fight of Angela Davis:","Who is She?",
+        "body":{
+          "aviso":{
+            "title":"ATTENTION",
+            "text":"The information are most impartiality possible, this site is not an ideology site, therefore our site is just informative"
+          },
+          "text":
+          ["The life and fight of Angela Davis:","Who is She?",
             "Angela Davis is an philosopher, teacher, writer and american activist. Since 1960, Davis fight for black people and women rights.",
             "What are the ideologies of her?",
             "Angela had contact with the progressism in 1959 with a white pastor. In 1960 she had contact with the Frankfurt school (ideology). So, she believes that marxism is the best politican and social organization, because according to her the marxism worries about a equal money distribuition. Therefore, she says the her is: marxist, activist by the black people rights and feminist.",
@@ -41,6 +47,7 @@
             "Hard critics:",
             "In 1975, Angela was accused of hipocrisy by the russian dissident Aleksandr Solzhenitsyn, he was accussing her of be hipocrit by simpatize with the URSS, while neglecting the conditions of politicans prisoners in communists regimes and by ignore a cards of Tchecans politican prisoners asking by help"
         ]
+      }
     },
     "Who":{
         "Header":"About us",
@@ -129,7 +136,8 @@
               "name":"type your name",
               "email":"type your email",
               "msg":"type your text *optional"
-            }
+            },
+            "bottom":"ALL REQUIRED INPUTS MUST BE FILLED"
           }
       }
 }

@@ -29,7 +29,7 @@ const AngDav: React.FC = () => {
             <IonTitle size="large">Angela Davis - angDac</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <BodyAngDav lang={language.AD.body}/>
+        <BodyAngDav aviso={language.AD.body.aviso} lang={language.AD.body.text}/>
       </IonContent>
       <IonFooter color={"primary"}>
           <FooterInit />
